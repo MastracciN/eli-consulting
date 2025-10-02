@@ -1,21 +1,24 @@
-const Header = () => {
+import { NavLink } from "react-router-dom";
+import routes from "../routesConfig";
+
+export default function Header() {
 
     return (
-        <header className="sticky top-5 pr-5 z-50 w-full">
+        <header className="p-4 flex items-center justify-between">
             {/* <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-center items-center"> */}
               {/* <nav className={`inline-flex items-center space-x-10 rounded-xl transition-all duration-300 ${scrolled ? "bg-white shadow-md px-8 py-4" : "bg-transparent px-8 py-4"}`}> */}
             {/* <nav className={`inline-flex items-center space-x-10 rounded-xl transition-all duration-300`}> */}
-            <nav>
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                </ul>
+            <nav className="space-x-4">
+                {routes.map(({ path, name, end }) => (
+                    <NavLink key={path} to={path} end={end}
+                        className={({ isActive }) => 
+                            isActive ? "underline" : "hover:underline"
+                    }>
+                        {name}
+                    </NavLink>
+                ))}
             </nav>
         </header>
     );
 }
-
-export default Header;
-
-                    {/* <li><a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" 
-                        className="hover:text-blue-500 py-4">Resume</a></li> */}
+{/* <li><a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 py-4">Resume</a></li> */}
