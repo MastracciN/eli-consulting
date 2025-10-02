@@ -1,7 +1,7 @@
 const About = () => {
 
     return (
-        <div className="max-w-[1400px] mx-auto">
+        <div className="max-w-[1200px] mx-auto">
             <h1>About</h1>
             <div className="flex">
                 <aside className="flex flex-col">

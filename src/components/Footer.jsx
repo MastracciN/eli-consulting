@@ -1,0 +1,10 @@
+import { NavLink } from "react-router-dom";
+
+export default function Footer() {
+
+    return (
+        <footer className="pt-4 flex items-center space-x-12 max-w-[1200px] mx-auto">
+            footer
+        </footer>
+    );
+}
