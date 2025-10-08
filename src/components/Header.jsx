@@ -13,9 +13,18 @@ export default function Header() {
             <h1>Elijah Blackbird</h1>
             <div className="space-x-6">
                 {routes.map(({ path, name, end }) => (
-                    <NavLink key={path} to={path} end={end}
-                        className={({ isActive }) => 
-                            isActive ? "underline" : "hover:underline"}>
+                    <NavLink 
+                        key={path} 
+                        to={path} 
+                        end={end}
+                        className={({ isActive }) =>
+                            `pb-4 border-b-3 ${
+                                isActive
+                                ? "border-black"
+                                : "border-transparent hover:border-black"
+                            }`
+                        }
+                    >
                         {name}
                     </NavLink>
                 ))}
