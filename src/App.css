@@ -1,6 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-    --color-corn: #FEFAF0;
-    --color-pgr: #283618;
+    --color-dmg: #606C38;
+    --color-pkg: #283618;
+    --color-silk: #FEFAF0;
+    --color-eyel: #DDA15E;
+    --color-teye: #BC6C25;
+
+    --color-db: #0D1F22;
+    --color-g1: #264027;
+    --color-g2: #3C5233;
+    --color-g3: #6F732F;
+    --color-beige: #B38A58;
 }
+
+/* forest harmony palette: https://coolors.co/palette/0d1f22-264027-3c5233-6f732f-b38a58 */
