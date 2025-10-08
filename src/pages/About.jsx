@@ -6,12 +6,13 @@ const About = () => {
         <div className="max-w-[1200px] p-4 mx-auto">
             <h1 className="text-center text-3xl  m-12">About Elijah</h1>
 
-            <div className="flex flex-col md:flex-row justify-between">
+            <div className="flex flex-col md:flex-row justify-between items-center">
                 <aside className="w-1/2 flex justify-center items-center">
-                    <img src={profile} alt="Profile Picture" 
-                        className="w-50 md:w-56 lg:w-70 xl:w-70 aspect-square rounded-full object-cover mb-6 lg:mb-10"/>
+                    <img src={profile} 
+                        alt="Profile Picture" 
+                        className="w-50 md:w-56 lg:w-70 xl:w-70 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10"/>
                 </aside>
-                <main className="w-1/2 flex-col justify-center items-center">
+                <main className="w-full md:w-1/2 flex-col justify-center items-center">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
