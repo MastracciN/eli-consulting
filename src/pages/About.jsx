@@ -3,8 +3,8 @@ import profile from '../assets/profile.jpg'
 const About = () => {
 
     return (
-        <div className="max-w-[1200px] p-4 mx-auto">
-            <h1 className="text-center text-3xl  m-12">About Elijah</h1>
+        <div className="max-w-[1200px] p-4 mx-auto ">
+            <h1 className="text-center text-3xl m-12">About Elijah</h1>
 
             <div className="flex flex-col md:flex-row justify-between items-center">
                 <aside className="w-1/2 flex justify-center items-center">

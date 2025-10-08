@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+    --color-corn: #FEFAF0;
+    --color-pgr: #283618;
+}

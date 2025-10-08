@@ -6,7 +6,7 @@ export default function Layout() {
     return (
         <div>
             <Header />
-            <main className="p-4">
+            <main className="p-4 bg-pgr">
                 <Outlet />
             </main>
             <Footer />
