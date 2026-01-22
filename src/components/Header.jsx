@@ -10,9 +10,9 @@ export default function Header() {
         // <nav className={`py-6 text-center ${
         //     isHome ? "bg-transparent text-white" : "bg-gray-100 text-black"
         // }`}>
-        <nav className="bg-g1 text-white">
+        <nav className="text-black">
             <div className="p-4 pt-8 flex items-center space-x-12 max-w-[1200px] mx-auto">
-                <h1>Elijah Blackbird</h1>
+                <h1 className="font-semibold">Elijah Blackbird</h1>
                 <div className="space-x-6">
                     {routes.map(({ path, name, end }) => (
                         <NavLink 
@@ -20,10 +20,10 @@ export default function Header() {
                             to={path} 
                             end={end}
                             className={({ isActive }) =>
-                                `pb-3 border-b-6 ${
+                                `pb-3 border-b-2 ${
                                     isActive
-                                    ? "border-white"
-                                    : "border-transparent hover:border-white"
+                                    ? "border-blue-500"
+                                    : "border-transparent hover:border-blue-500"
                                 }`
                             }
                         >
