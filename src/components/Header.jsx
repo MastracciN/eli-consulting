@@ -5,6 +5,7 @@ export default function Header() {
     const { pathName } = useLocation();
     const isHome = pathName === "/"
     const isAbout = pathName ==="/about"
+    const isServices = pathName ==="/services"
     const isContact = pathName ==="/contact"
 
     return (
