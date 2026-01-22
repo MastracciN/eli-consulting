@@ -3,8 +3,9 @@ import routes from "../routesConfig";
 
 export default function Header() {
     const { pathName } = useLocation();
-    const isHome = pathName === "/";
+    const isHome = pathName === "/"
     const isAbout = pathName ==="/about"
+    const isContact = pathName ==="/contact"
 
     return (
         // <nav className={`py-6 text-center ${
