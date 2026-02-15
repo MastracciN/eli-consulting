@@ -4,8 +4,11 @@ const About = () => {
 
     return (
         <div className="max-w-[1200px] p-4 mx-auto">
-            <h1 className="text-center text-5xl m-12 font-bold">About Elijah</h1>
-
+            <section id='hero'>
+                <div className='h-[250px] justify-center'>
+                    <h1 className="text-center text-5xl font-bold">About</h1>
+                </div>
+            </section>
             <main className='flex flex-col space-y-10'>
                 <div className='flex flex-col md:flex-row justify-between items-center'>
                     <div className="w-1/2 flex justify-center items-center">
