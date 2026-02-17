@@ -1,15 +1,18 @@
 import profile from '../assets/profile.jpg'
+// import hero from ''
 
 const About = () => {
 
     return (
-        <div className="max-w-[1200px] p-4 mx-auto">
-            <section id='hero'>
-                <div className='h-[250px] justify-center'>
+        <div className='mx-auto'>
+            <section id='hero' className='relative bg-cover bg-center'>
+                <div className='absolute inset-0 bg-black/50'></div>
+                <div className='h-[350px] flex items-center justify-center'>
                     <h1 className="text-center text-5xl font-bold">About</h1>
                 </div>
             </section>
-            <main className='flex flex-col space-y-10'>
+
+            <main className='flex flex-col space-y-20 max-w-[1200px] mx-auto mt-20'>
                 <div className='flex flex-col md:flex-row justify-between items-center'>
                     <div className="w-1/2 flex justify-center items-center">
                         <img src={profile} 
