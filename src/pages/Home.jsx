@@ -10,7 +10,7 @@ const Home = () => {
 
                 <div className='relative min-h-[50vh] flex items-center'>
                     <div className='w-full max-w-[1200px] mx-auto'>
-                        <h1 className="text-5xl font-bold">Quote</h1>
+                        <h1 className="text-5xl font-bold p-8">Headline</h1>
                     </div>
                 </div>
             </section>
