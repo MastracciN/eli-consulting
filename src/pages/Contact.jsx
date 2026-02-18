@@ -27,11 +27,22 @@ const Contact = () => {
             </section>
 
             <section id='contact' className="w-full">
-                <div className='w-full max-w-[1200px] mx-auto px-6 flex flex-col md:flex-row gap-16'>
+                <div className='w-full max-w-[1200px] mx-auto px-6 py-12 flex flex-col md:flex-row'>
 
-                    <div id='left-col' className="flex-1">
+                    <div id='left-col' className="flex-1 flex flex-col items-start justify-center">
                         <p className="font-medium">LinkedIn</p>
-                        <a href=""></a>
+                        <a 
+                            href="https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="relative inline-block text-blue-600
+                                       after:absolute after:left-0 after:bottom-0
+                                       after:h-[1px] after:w-0
+                                       after:bg-blue-600
+                                       after:transition-all after:duration-300
+                                       hover:after:w-full"
+                        >https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/
+                        </a>
                     </div>
 
                     <div id='right-col' className="flex-1">
