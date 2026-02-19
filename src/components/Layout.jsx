@@ -6,7 +6,7 @@ export default function Layout() {
     return (
         <div className="min-h-screen">
             <Header />
-            <main className="p-4 md:p-0">
+            <main>
                 <Outlet />
             </main>
             <Footer />
