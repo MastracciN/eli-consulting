@@ -10,12 +10,17 @@ const Home = () => {
 
                 <div className='relative min-h-[50vh] flex items-center'>
                     <div className='w-full max-w-[1200px] mx-auto'>
-                        <h1 className="text-5xl font-bold p-8">Headline</h1>
+                        <h1 className="text-5xl font-bold px-8 py-4">Headline</h1>
+                        <h2 className="text-3xl font-bold px-8">Headline</h2>
                     </div>
                 </div>
             </section>
 
-            <p className="min-h-[50vh]">bla bla bla</p>
+            <section>
+                <div className="min-h-[50vh] w-full max-w-[1200px] mx-auto">
+                    <p className='px-8'>bla bla bla</p>
+                </div>
+            </section>
 
             {/* Let's chat */}
             <section id='hero' className='relative bg-cover bg-center'>

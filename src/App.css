@@ -14,4 +14,10 @@
     --color-beige: #B38A58;
 }
 
+@layer components {
+    .nav-link {
+        @apply text-blue-600 hover:text-indigo-900 transition-colors duration-200;
+    }
+}
+
 /* forest harmony palette: https://coolors.co/palette/0d1f22-264027-3c5233-6f732f-b38a58 */

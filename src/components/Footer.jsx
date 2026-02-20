@@ -3,12 +3,12 @@ import { NavLink } from "react-router-dom";
 export default function Footer() {
 
     return (
-        <footer className="p-8 min-h-[250px]">
+        <footer className="py-8 min-h-[250px] bg-black/25">
             <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row">
-                <div id="left-col" className="flex-1">
+                <div id="left-col" className="flex-2">
                     Elijah Blackbird
                 </div>
-                <div id="right-col" className="flex flex-col">
+                <div id="right-col" className="flex flex-1 flex-col">
                     <h2 className="text-2xl font-bold">Contact</h2>
                     <NavLink 
                         to='/contact'
