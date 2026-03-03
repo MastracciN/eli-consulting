@@ -12,10 +12,10 @@ export default function Header() {
         // <nav className={`py-6 text-center ${
         //     isHome ? "bg-transparent text-white" : "bg-gray-100 text-black"
         // }`}>
-        <nav className="text-black">
-            <div className="p-8 flex items-center space-x-12 max-w-[1200px] mx-auto">
+        <nav className="text-white bg-black">
+            <div className="p-8 flex items-center justify-between max-w-[1200px] mx-auto">
                 <h1 className="font-semibold">Elijah Blackbird</h1>
-                <div className="space-x-6">
+                <div className="flex space-x-6">
                     {routes.map(({ path, name, end }) => (
                         <NavLink 
                             key={path} 
