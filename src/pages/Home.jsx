@@ -9,7 +9,7 @@ const Home = () => {
                 <div className='absolute inset-0 bg-black/90'></div>
 
                 <div className='relative min-h-[50vh] flex items-center'>
-                    <div className='w-full max-w-[1200px] mx-auto text-white'>
+                    <div className='w-full max-w-[1400px] mx-auto text-white'>
                         <h1 className="text-5xl font-bold px-8 py-4">Headline</h1>
                         <h2 className="text-3xl font-bold px-8">Headline</h2>
                     </div>
@@ -17,7 +17,7 @@ const Home = () => {
             </section>
 
             <section>
-                <div className="min-h-[50vh] w-full max-w-[1200px] mx-auto">
+                <div className="min-h-[50vh] w-full max-w-[1400px] mx-auto">
                     <p className='px-8'>bla bla bla</p>
                 </div>
             </section>
@@ -27,7 +27,7 @@ const Home = () => {
                 <div className='absolute inset-0 bg-black/50'></div>
 
                 <div className='relative min-h-[30vh] flex items-center'>
-                    <div className='w-full max-w-[1200px] mx-auto flex items-center justify-between'>
+                    <div className='w-full max-w-[1400px] mx-auto flex items-center justify-between'>
                         <h2 className="text-4xl font-bold">Contact</h2>
                         <NavLink
                             to='/contact'

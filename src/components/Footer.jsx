@@ -4,7 +4,7 @@ export default function Footer() {
 
     return (
         <footer className="py-8 min-h-[250px] bg-black text-white">
-            <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row">
+            <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row">
                 <div id="left-col" className="flex-2">
                     Elijah Blackbird
                 </div>

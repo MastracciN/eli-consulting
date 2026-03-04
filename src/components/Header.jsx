@@ -13,7 +13,7 @@ export default function Header() {
         //     isHome ? "bg-transparent text-white" : "bg-gray-100 text-black"
         // }`}>
         <nav className="text-white bg-black">
-            <div className="p-8 flex items-center justify-between max-w-[1200px] mx-auto">
+            <div className="p-8 flex items-center justify-between max-w-[1400px] mx-auto">
                 <NavLink to="/" className="inline-block">
                     <h1 className="font-semibold">Elijah Blackbird</h1>
                 </NavLink>
