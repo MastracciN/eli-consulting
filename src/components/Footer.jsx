@@ -8,12 +8,12 @@ export default function Footer() {
                 <div id="left-col" className="flex-2">
                     Elijah Blackbird
                 </div>
-                <div id="right-col" className="flex flex-1 flex-col items-start">
-                    <h2 className="text-2xl font-bold mb-4">Contact</h2>
+                <div id="right-col" className="flex flex-1 flex-col items-start space-y-1">
+                    <h2 className="text-2xl font-bold mb-6">Contact</h2>
                     <NavLink 
                         to='/contact'
-                        className="relative inline-block pb-1
-                            after:absolute after:left-0 after:bottom-0
+                        className="relative inline-block
+                            after:absolute after:left-0 after:bottom-[1px]
                             after:h-[1px] after:w-full
                             after:origin-left
                             after:scale-x-0
@@ -26,8 +26,8 @@ export default function Footer() {
                             href="https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="relative inline-block pb-1
-                                after:absolute after:left-0 after:bottom-0
+                            className="relative inline-block
+                                after:absolute after:left-0 after:bottom-[1px]
                                 after:h-[1px] after:w-full
                                 after:origin-left
                                 after:scale-x-0
