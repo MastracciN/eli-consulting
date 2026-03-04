@@ -14,7 +14,9 @@ export default function Header() {
         // }`}>
         <nav className="text-white bg-black">
             <div className="p-8 flex items-center justify-between max-w-[1200px] mx-auto">
-                <h1 className="font-semibold">Elijah Blackbird</h1>
+                <NavLink to="/" className="inline-block">
+                    <h1 className="font-semibold">Elijah Blackbird</h1>
+                </NavLink>
                 <div className="flex space-x-6">
                     {routes.map(({ path, name, end }) => (
                         <NavLink 
