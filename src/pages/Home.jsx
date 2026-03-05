@@ -7,12 +7,12 @@ const Home = () => {
         <div>
             {/* Hero */}
             <section id='hero' className='relative bg-cover bg-center px-6'>
-                <div className='absolute inset-0 bg-black/90'></div>
+                <div className='absolute inset-0 bg-dg'></div>
 
                 <div className='relative min-h-[50vh] flex items-center'>
                     <div className='w-full max-w-[1400px] mx-auto text-white'>
                         {/* <h1 className="text-5xl font-bold">Blackbird Bimaadiziwin Consulting</h1> */}
-                        <h2 className="text-5xl font-bold">We are all related. What we do to one another, we do to ourselves.</h2>
+                        <h2 className="text-5xl font-serif">We are all related. What we do to one another, we do to ourselves.</h2>
                     </div>
                 </div>
             </section>
@@ -20,8 +20,8 @@ const Home = () => {
             <main className='px-6'>
                 <div className="min-h-[50vh] w-full max-w-[1400px] mx-auto">
 
-                    <section id="walking-together">
-                        <h2 className="text-4xl font-bold">Walking Together in Two Worlds</h2>
+                    <section id="walking-together" className='py-20'>
+                        <h2 className="text-4xl font-bold mb-8 font-serif">Walking Together in Two Worlds</h2>
                         <p>
                             Guided by the principle of <b>Two-Eyed Seeing</b> — learning to see with the strengths of Indigenous knowledge and the strengths of Western systems 
                             — we help organizations walk in both worlds with integrity.
@@ -42,8 +42,8 @@ const Home = () => {
                         </p>
                     </section>
 
-                    <section id="bimaadiziwin">
-                        <h2>Bimaadiziwin – Living the Good Life</h2>
+                    <section id="bimaadiziwin" className='pb-20'>
+                        <h2 className='text-4xl font-bold mb-8 font-serif'>Bimaadiziwin – Living the Good Life</h2>
                         <p>
                             <em>Bimaadiziwin</em> teaches that a good life is built through balance, responsibility, and community.
                         </p>
