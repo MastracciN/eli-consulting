@@ -12,8 +12,8 @@ export default function Header() {
         // <nav className={`py-6 text-center ${
         //     isHome ? "bg-transparent text-white" : "bg-gray-100 text-black"
         // }`}>
-        <nav className="text-white bg-black">
-            <div className="p-8 flex items-center justify-between max-w-[1400px] mx-auto">
+        <nav className="text-white bg-black py-8 px-6">
+            <div className=" flex items-center justify-between max-w-[1400px] mx-auto">
                 <NavLink to="/" className="inline-block">
                     <h1 className="font-semibold">Elijah Blackbird</h1>
                 </NavLink>
