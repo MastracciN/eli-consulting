@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import ContactSection from '../components/ContactSection';
 
 const Home = () => {
 
@@ -23,7 +24,7 @@ const Home = () => {
             </section>
 
 
-            
+            <ContactSection></ContactSection>
         </div>
     );
 };
