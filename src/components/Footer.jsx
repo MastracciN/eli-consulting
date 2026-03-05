@@ -23,18 +23,19 @@ export default function Footer() {
                         Contact Me
                     </NavLink>
                     <a 
-                            href="https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="relative inline-block
-                                after:absolute after:left-0 after:bottom-[1px]
-                                after:h-[1px] after:w-full
-                                after:origin-left
-                                after:scale-x-0
-                                after:bg-current
-                                after:transition-transform after:duration-300
-                                hover:after:scale-x-100"
-                        >LinkedIn
+                        href="https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="relative inline-block
+                            after:absolute after:left-0 after:bottom-[1px]
+                            after:h-[1px] after:w-full
+                            after:origin-left
+                            after:scale-x-0
+                            after:bg-current
+                            after:transition-transform after:duration-300
+                            hover:after:scale-x-100"
+                    >
+                        LinkedIn
                     </a>
                 </div>
             </div>
