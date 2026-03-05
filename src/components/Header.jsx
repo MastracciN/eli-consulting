@@ -1,5 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
 import routes from "../routesConfig";
+import logo from "../assets/logo-header.png"
 
 export default function Header() {
     const { pathName } = useLocation();
@@ -12,10 +13,15 @@ export default function Header() {
         // <nav className={`py-6 text-center ${
         //     isHome ? "bg-transparent text-white" : "bg-gray-100 text-black"
         // }`}>
-        <nav className="text-white bg-black py-8 px-6">
+        <nav className="bg-main text-text py-8 px-6">
             <div className=" flex items-center justify-between max-w-[1400px] mx-auto">
                 <NavLink to="/" className="inline-block">
-                    <h1 className="font-semibold">Elijah Blackbird</h1>
+                    <h1 className="sr-only">Blackbird Bimaadiziwin Consulting</h1>
+                    <img
+                        src={logo}
+                        alt="Blackbird Bimaadiziwin Consulting"
+                        className="h-12 w-auto md:h-20"
+                    />
                 </NavLink>
                 <div className="flex space-x-6">
                     {routes.map(({ path, name, end }) => (
@@ -26,9 +32,9 @@ export default function Header() {
                             className={({ isActive }) =>
                                 `relative inline-block pb-1
                                 after:absolute after:left-0 after:bottom-0
-                                after:h-[1px] after:bg-blue-600
+                                after:h-[2px] after:bg-blue-600
                                 after:transition-all after:duration-300
-                                ${isActive ? "after:w-full" : "after:w-0 hover:after:w-full"}`
+                                ${isActive ? "after:w-full font-bold" : "after:w-0 hover:after:w-full"}`
                             }
                         >
                             {name}
