@@ -21,7 +21,7 @@ const Home = () => {
                 <div className="min-h-[50vh] w-full max-w-[1400px] mx-auto">
 
                     <section id="walking-together">
-                        <h2>Walking Together in Two Worlds</h2>
+                        <h2 className="text-4xl font-bold">Walking Together in Two Worlds</h2>
                         <p>
                             Guided by the principle of <b>Two-Eyed Seeing</b> — learning to see with the strengths of Indigenous knowledge and the strengths of Western systems 
                             — we help organizations walk in both worlds with integrity.

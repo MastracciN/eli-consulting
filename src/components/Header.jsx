@@ -20,7 +20,7 @@ export default function Header() {
                     <img
                         src={logo}
                         alt="Blackbird Bimaadiziwin Consulting"
-                        className="h-12 w-auto md:h-20"
+                        className="h-12 w-auto md:h-16"
                     />
                 </NavLink>
                 <div className="flex space-x-6">
