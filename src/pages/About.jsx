@@ -3,6 +3,7 @@ import lakeHero from '../assets/lake-hero.jpg'
 import woodpattern from '../assets/woodpattern.jpg'
 import profile from '../assets/profile.jpg'
 import memorial from '../assets/memorial.jpg'
+import waterfall from '../assets/waterfall.jpg'
 // import hero from ''
 
 const About = () => {
@@ -11,18 +12,26 @@ const About = () => {
         <div className='mx-auto'>
             <section 
                 id='hero' 
-                className='relative h-[250px] md:h-[350px] bg-cover bg-center md:bg-fixed'
+                className='relative bg-cover bg-center md:bg-fixed h-[60vh]'
                 style={{ backgroundImage: `url(${lakeHero})` }}
             >
                 <div className='absolute inset-0 bg-black/60'></div>
 
-                <div className=' relative z-10 flex h-full items-center justify-center'>
-                    <h1 className=" text-5xl font-bold text-white drop-shadow-lg font-serif">About the Founder</h1>
+                <div className=' relative z-10 flex flex-col h-full items-center justify-center text-white'>
+                    <img 
+                        src={profile} 
+                        alt="Photo of Elijah" 
+                        className="w-50 md:w-56 lg:w-70 xl:w-72 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10 shadow-xl shadow-black/20 border-5 border-white"
+                    />
+                    <h1 className=" text-3xl text-white drop-shadow-lg font-serif">About the Founder</h1>
+                    <h3 className="text-4xl md:text-5xl font-serif">
+                                Elijah Blackbird
+                    </h3>
                 </div>
             </section>
 
             <main className='w-full flex flex-col'>
-                <section className="py-20 px-6 bg-crm">
+                {/* <section className="py-20 px-6 bg-crm">
                     <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row items-center">
                         <div className="md:w-1/2 flex justify-center items-end">
                             <img 
@@ -38,11 +47,12 @@ const About = () => {
                             </h3>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 <div className='relative bg-dg text-white py-20 overflow-hidden'>
                     <div 
                         className="absolute inset-0 opacity-2 bg-repeat"
+                        alt='Wood pattern'
                         style={{ backgroundImage: `url(${woodpattern})` }}    
                     ></div>
                     <h3 className='text-4xl text-center drop-shadow-5xl font-serif'>I am a proud Ojibwe from <b>Walpole Island First Nation</b>.</h3>
@@ -82,6 +92,7 @@ const About = () => {
                 <div className='relative bg-dg text-white py-20 mt-30 overflow-hidden'>
                     <div 
                         className="absolute inset-0 opacity-2 bg-repeat"
+                        alt="Wood pattern"
                         style={{ 
                             backgroundImage: `url(${woodpattern})`,
                             backgroundPosition: 'left' ,
@@ -91,12 +102,12 @@ const About = () => {
                 <div className='max-w-[1200px] mx-auto space-y-30 mt-30 px-6'>
                     <div className='flex flex-col md:flex-row justify-between items-center space-y-4'>
                         <div className="w-1/2 flex justify-center items-center">
-                            {/* <img src={profile} 
+                            <img src={waterfall} 
                                 alt="Profile Picture" 
-                                className="w-50 md:w-56 lg:w-70 xl:w-70 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10 shadow-xl shadow-black/20"/> */}
+                                className="h-100 w-100 rounded-2xl shadow-xl shadow-black/30 object-cover"/>
                         </div>
                         <div className="w-full md:w-1/2 flex-col justify-center items-center space-y-4 text-l">
-                            <h3 className='text-4xl font-serif'>In that moment I realized what I had been missing, and I promised him — and myself — that I would walk more fully in who I am.</h3>
+                            <h3 className='text-4xl font-serif'>In that moment I realized what I had been missing, and I promised him and myself that I would walk more fully in who I am.</h3>
                             <p>
                                 
                                 Today I teach my children to be proud of their Ojibwe roots, just as my father taught me.
