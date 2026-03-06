@@ -12,7 +12,7 @@ const Home = () => {
                 <div className='relative min-h-[50vh] flex items-center'>
                     <div className='w-full max-w-[1400px] mx-auto text-white'>
                         {/* <h1 className="text-5xl font-bold">Blackbird Bimaadiziwin Consulting</h1> */}
-                        <h2 className="text-5xl font-serif">We are all related. What we do to one another, we do to ourselves.</h2>
+                        <h2 className="text-5xl font-serif drop-shadow-lg">We are all related. What we do to one another, we do to ourselves.</h2>
                     </div>
                 </div>
             </section>

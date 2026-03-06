@@ -13,14 +13,14 @@ export default function Header() {
         // <nav className={`py-6 text-center ${
         //     isHome ? "bg-transparent text-white" : "bg-gray-100 text-black"
         // }`}>
-        <nav className="bg-main text-text py-8 px-6">
+        <nav className="bg-main text-text py-4 px-6">
             <div className=" flex items-center justify-between max-w-[1400px] mx-auto">
                 <NavLink to="/" className="inline-block">
                     <h1 className="sr-only">Blackbird Bimaadiziwin Consulting</h1>
                     <img
                         src={logo}
                         alt="Blackbird Bimaadiziwin Consulting"
-                        className="h-12 w-auto md:h-16"
+                        className="h-12 w-auto md:h-18"
                     />
                 </NavLink>
                 <div className="flex space-x-6">

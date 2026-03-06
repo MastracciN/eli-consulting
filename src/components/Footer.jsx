@@ -4,7 +4,7 @@ import logo from "../assets/blackbird-header-dark.png";
 export default function Footer() {
 
     return (
-        <footer className="py-8 min-h-[250px] bg-text text-white">
+        <footer className="py-16 min-h-[250px] bg-text text-white">
             <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row">
                 <div id="left-col" className="flex-2">
                     <h2 className="sr-only">Blackbird Bimaadiziwin Consulting</h2>
