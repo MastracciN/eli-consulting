@@ -12,8 +12,8 @@ export default function ContactSection() {
 
             <div className='relative flex items-center'>
                 <div className='w-full max-w-[1400px] mx-auto flex flex-col md:flex-row space-y-4 md:space-y-0 py-8 md:py-0 items-center justify-between'>
-                    <div className=" px-6 md:px-0 flex flex-col text-white space-y-4 mb-8 md:mb-0 drop-shadow-2xl">
-                        <h2 className="text-4xl font-bold text-white font-serif">Begin the Journey</h2>
+                    <div className=" px-6 md:px-0 flex flex-col text-white space-y-2 mb-8 md:mb-0 drop-shadow-2xl">
+                        <h2 className="text-5xl font-bold text-white font-serif mb-5">Begin the Journey</h2>
                         <p className="text-xl">
                             Reconciliation is not a single event or workshop.
                         </p>
