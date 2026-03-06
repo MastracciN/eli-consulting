@@ -84,16 +84,18 @@ const About = () => {
                             </p>
                         </div>
                         <div className="relative flex justify-center items-center">
+                            <div className="absolute top-0 left-0 h-30 w-30 bg-dg rounded-lg -translate-x-4 -translate-y-4 z-10"></div>
+                            <div className="absolute bottom-0 right-0 h-30 w-30 bg-dg rounded-lg translate-x-4 translate-y-4 z-10"></div>
                             
                             <img src={memorial} 
                                 alt="Walpole Island Residential School Memorial" 
                                 className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 z-20 border-4 border-crm"
                             />
-                            <img 
+                            {/* <img 
                                 src={sun} 
                                 alt="Overlay" 
-                                className="border-4 border-crm absolute left-full h-100 w-auto rounded-xl shadow-lg shadow-black/40 object-cover -translate-x-50 translate-y-10 hidden md:block z-10 scale-x-[-1]"
-                            />
+                                className="border-4 border-crm absolute left-full h-60 w-60 rounded-xl shadow-lg shadow-black/40 object-cover -translate-x-30 translate-y-0 hidden md:block z-10 scale-x-[-1]"
+                            /> */}
                         </div>
                     </div>
                 </div>
