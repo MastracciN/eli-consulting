@@ -1,5 +1,6 @@
-import profile from '../assets/profile.jpg'
 import ContactSection from '../components/ContactSection'
+import profile from '../assets/profile.jpg'
+import memorial from '../assets/memorial.jpg'
 // import hero from ''
 
 const About = () => {
@@ -14,17 +15,16 @@ const About = () => {
             </section>
 
             <main className='w-full flex flex-col'>
-
-                <section className="w-full py-20 px-6 bg-white">
+                <section className="py-20 px-6 bg-white">
                     <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row items-center">
-                        <div className="md:w-1/2 flex justify-center items-center">
-                        <img 
-                            src={profile} 
-                            alt="Profile Picture" 
-                            className="w-50 md:w-56 lg:w-70 xl:w-72 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10"
-                        />
+                        <div className="md:w-1/2 flex justify-center items-end">
+                            <img 
+                                src={profile} 
+                                alt="Photo of Elijah" 
+                                className="w-50 md:w-56 lg:w-70 xl:w-72 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10"
+                            />
                         </div>
-                        <div className="md:w-1/2 flex flex-col justify-center items-start space-y-2 text-left">
+                        <div className="md:w-1/2 flex flex-col justify-center items-start space-y-2">
                             <p className='text-2xl'>My name is</p>
                             <h3 className="text-4xl md:text-5xl">
                                 Elijah Blackbird
@@ -33,14 +33,14 @@ const About = () => {
                     </div>
                 </section>
 
-                <div className='bg-dg text-white py-8'>
-                <h3 className='text-4xl text-center drop-shadow-4xl'>I am a proud Ojibwe from <b>Walpole Island First Nation</b>.</h3>
+                <div className='bg-dg text-white py-20'>
+                    <h3 className='text-4xl text-center drop-shadow-4xl font-serif'>I am a proud Ojibwe from <b>Walpole Island First Nation</b>.</h3>
                 </div>
 
-                <div className='max-w-[1200px] mx-auto space-y-20 mt-20'>
+                <div className='max-w-[1200px] mx-auto space-y-30 mt-30 px-6'>
                     <div className='flex flex-col md:flex-row justify-between items-center space-y-4'>
-                        <div className="w-full md:w-1/2 flex-col justify-center items-center space-y-4 text-l font-serif">
-                            <h3 className='text-4xl'>
+                        <div className="w-full md:w-1/2 flex-col justify-center items-center space-y-4 text-l">
+                            <h3 className='text-4xl font-serif'>
                                 My father, <b>Julius</b>, was born and raised on Walpole Island. He was a Residential School survivor. He rarely spoke about his experience, 
                                 but he carried it throughout his life.   
                             </h3>
@@ -62,9 +62,9 @@ const About = () => {
                             </p>
                         </div>
                         <div className="w-1/2 flex justify-center items-center">
-                            <img src={profile} 
-                                alt="Profile Picture" 
-                                className="w-50 md:w-56 lg:w-70 xl:w-70 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10"/>
+                            <img src={memorial} 
+                                alt="Walpole Island Residential School Memorial" 
+                                className="h-140 object-scale-down"/>
                         </div>
                     </div>
                     <div className='flex flex-col md:flex-row justify-between items-center space-y-4'>
@@ -73,8 +73,8 @@ const About = () => {
                                 alt="Profile Picture" 
                                 className="w-50 md:w-56 lg:w-70 xl:w-70 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10"/>
                         </div>
-                        <div className="w-full md:w-1/2 flex-col justify-center items-center space-y-4 text-l font-serif">
-                            <h3 className='text-4xl'> It was at his Ojibwe funeral that something shifted within me.</h3>
+                        <div className="w-full md:w-1/2 flex-col justify-center items-center space-y-4 text-l">
+                            <h3 className='text-4xl font-serif'> It was at his Ojibwe funeral that something shifted within me.</h3>
                             <p>
                                 In that moment I realized what I had been missing, and I promised him — and myself — that I would walk more fully in who I am.
                                 Today I teach my children to be proud of their Ojibwe roots, just as my father taught me.
