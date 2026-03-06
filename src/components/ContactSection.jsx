@@ -30,7 +30,7 @@ export default function ContactSection() {
                             `px-6 py-3 rounded-lg font-semibold transition ${
                             isActive
                                 ? 'bg-black text-white'
-                                : 'border border-white text-white hover:bg-green-900 hover:text-white'
+                                : 'border border-white text-white hover:bg-white/20 hover:text-white'
                             }`
                         }
                     >

@@ -1,5 +1,6 @@
 import ContactSection from '../components/ContactSection'
 import lakeHero from '../assets/lake-hero.jpg'
+import woodpattern from '../assets/woodpattern.jpg'
 import profile from '../assets/profile.jpg'
 import memorial from '../assets/memorial.jpg'
 // import hero from ''
@@ -39,7 +40,11 @@ const About = () => {
                     </div>
                 </section>
 
-                <div className='bg-dg text-white py-20'>
+                <div className='relative bg-dg text-white py-20 overflow-hidden'>
+                    <div 
+                        className="absolute inset-0 opacity-2 bg-repeat"
+                        style={{ backgroundImage: `url(${woodpattern})` }}    
+                    ></div>
                     <h3 className='text-4xl text-center drop-shadow-5xl font-serif'>I am a proud Ojibwe from <b>Walpole Island First Nation</b>.</h3>
                 </div>
 
@@ -74,7 +79,13 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-dg text-white py-20 mt-30'>
+                <div className='relative bg-dg text-white py-20 mt-30 overflow-hidden'>
+                    <div 
+                        className="absolute inset-0 opacity-2 bg-repeat"
+                        style={{ 
+                            backgroundImage: `url(${woodpattern})`,
+                            backgroundPosition: 'left' ,
+                    }}></div>
                     <h3 className='text-4xl text-center drop-shadow-4xl font-serif'>It was at his Ojibwe funeral that something shifted within me.</h3>
                 </div>
                 <div className='max-w-[1200px] mx-auto space-y-30 mt-30 px-6'>
@@ -94,18 +105,18 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='font-serif text-4xl space-y-10 my-30 mx-auto text-text font-bold'>
+                <div className='font-serif text-4xl space-y-10 my-30 mx-auto text-text'>
                         <p>
-                            Reconciliation begins with conversation.
+                            Reconciliation begins with <b>conversation</b>.
                         </p>
                         <p className='px-15'>
-                           It begins with curiosity. 
+                           It begins with <b>curiosity</b>. 
                         </p>
                         <p className='px-30'>
-                            It begins with listening.
+                            It begins with <b>listening</b>.
                         </p>
                         <p className='mt-6'>
-                            And from those conversations, new understanding grows.
+                            And from those conversations, new <b>understanding</b> grows.
                         </p>
                 </div>
             </main>
