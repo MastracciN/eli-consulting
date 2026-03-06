@@ -1,4 +1,5 @@
 import ContactSection from '../components/ContactSection'
+import lakeHero from '../assets/lake-hero.jpg'
 import profile from '../assets/profile.jpg'
 import memorial from '../assets/memorial.jpg'
 // import hero from ''
@@ -7,9 +8,14 @@ const About = () => {
 
     return (
         <div className='mx-auto'>
-            <section id='hero' className='relative bg-cover bg-center'>
-                <div className='absolute inset-0 bg-dg'></div>
-                <div className=' relative h-[350px] flex items-center justify-center z-10'>
+            <section 
+                id='hero' 
+                className='relative h-[250px] md:h-[350px] bg-cover bg-center md:bg-fixed'
+                style={{ backgroundImage: `url(${lakeHero})` }}
+            >
+                <div className='absolute inset-0 bg-black/60'></div>
+
+                <div className=' relative z-10 flex h-full items-center justify-center'>
                     <h1 className=" text-5xl font-bold text-white drop-shadow-lg font-serif">About the Founder</h1>
                 </div>
             </section>
