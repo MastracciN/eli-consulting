@@ -3,9 +3,11 @@ import lakeHero from '../assets/lake-hero.jpg'
 import woodpattern from '../assets/woodpattern.jpg'
 import profile from '../assets/profile.jpg'
 import memorial from '../assets/memorial.jpg'
-import rocksitting from '../assets/rocksitting.jpg'
 import water from '../assets/water.jpg'
 import walking from '../assets/walking.jpg'
+import tree from '../assets/tree.jpg'
+import path from '../assets/path.jpg'
+import sun from '../assets/sun.jpg'
 
 const About = () => {
 
@@ -25,9 +27,7 @@ const About = () => {
                         className="w-50 md:w-56 lg:w-70 xl:w-72 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10 shadow-xl shadow-black/20 border-5 border-white"
                     />
                     <h1 className=" text-2xl md:text-3xl text-white drop-shadow-lg font-serif mb-2">About the Founder</h1>
-                    <h3 className="text-4xl md:text-5xl font-serif">
-                                Elijah Blackbird
-                    </h3>
+                    <h3 className="text-4xl md:text-5xl font-serif">Elijah Blackbird</h3>
                 </div>
             </section>
 
@@ -83,10 +83,18 @@ const About = () => {
                                 When my father retired, he said the land was calling him home.
                             </p>
                         </div>
-                        <img src={memorial} 
-                            alt="Walpole Island Residential School Memorial" 
-                            className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30"
-                        />
+                        <div className="relative flex justify-center items-center">
+                            
+                            <img src={memorial} 
+                                alt="Walpole Island Residential School Memorial" 
+                                className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 z-20 border-4 border-crm"
+                            />
+                            <img 
+                                src={sun} 
+                                alt="Overlay" 
+                                className="border-4 border-crm absolute left-full h-100 w-auto rounded-xl shadow-lg shadow-black/40 object-cover -translate-x-50 translate-y-10 hidden md:block z-10 scale-x-[-1]"
+                            />
+                        </div>
                     </div>
                 </div>
 
@@ -104,13 +112,15 @@ const About = () => {
                 <div className='max-w-[1200px] mx-auto space-y-30 mt-30 px-6'>
                     <div className='flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 '>
                         <div className="w-1/2 relative flex justify-center items-center">
+                            <div className="absolute top-0 left-0 h-30 w-30 bg-dg rounded-lg translate-x-8 -translate-y-4 z-10"></div>
+                            <div className="absolute bottom-0 right-0 h-30 w-30 bg-dg rounded-lg -translate-x-8 translate-y-4 z-10"></div>
                             <img src={walking} 
                                 alt="Elijah and his daughter hiking in the forest" 
-                                className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover border-5 border-crm"
+                                className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover border-4 border-crm z-20"
                             />
                             <img src={water} 
                                 alt="Looking out on a lake" 
-                                className="absolute bottom-0 left-0 h-60 w-60 rounded-xl shadow-lg shadow-black/40 object-cover -translate-x-6 translate-y-16"
+                                className="absolute bottom-0 left-0 h-60 w-60 rounded-xl shadow-lg shadow-black/40 object-cover -translate-x-6 translate-y-16 border-4 border-crm z-30"
                             />
                         </div>
                         <div className="w-full md:w-1/2 flex-col justify-center items-center space-y-4 text-l">
@@ -127,7 +137,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='font-serif text-4xl space-y-10 my-30 mx-auto text-text'>
+                <div className='font-serif text-4xl space-y-10 mt-40 mb-30 mx-auto text-text'>
                         <p>
                             Reconciliation begins with <b>conversation</b>.
                         </p>
