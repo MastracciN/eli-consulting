@@ -15,18 +15,18 @@ const About = () => {
             </section>
 
             <main className='w-full flex flex-col'>
-                <section className="py-20 px-6 bg-white">
+                <section className="py-20 px-6 bg-crm">
                     <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row items-center">
                         <div className="md:w-1/2 flex justify-center items-end">
                             <img 
                                 src={profile} 
                                 alt="Photo of Elijah" 
-                                className="w-50 md:w-56 lg:w-70 xl:w-72 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10"
+                                className="w-50 md:w-56 lg:w-70 xl:w-72 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10 shadow-xl shadow-black/20"
                             />
                         </div>
                         <div className="md:w-1/2 flex flex-col justify-center items-start space-y-2">
                             <p className='text-2xl'>My name is</p>
-                            <h3 className="text-4xl md:text-5xl">
+                            <h3 className="text-4xl md:text-5xl font-serif">
                                 Elijah Blackbird
                             </h3>
                         </div>
@@ -34,7 +34,7 @@ const About = () => {
                 </section>
 
                 <div className='bg-dg text-white py-20'>
-                    <h3 className='text-4xl text-center drop-shadow-4xl font-serif'>I am a proud Ojibwe from <b>Walpole Island First Nation</b>.</h3>
+                    <h3 className='text-4xl text-center drop-shadow-5xl font-serif'>I am a proud Ojibwe from <b>Walpole Island First Nation</b>.</h3>
                 </div>
 
                 <div className='max-w-[1200px] mx-auto space-y-30 mt-30 px-6'>
@@ -64,38 +64,43 @@ const About = () => {
                         <div className="w-1/2 flex justify-center items-center">
                             <img src={memorial} 
                                 alt="Walpole Island Residential School Memorial" 
-                                className="h-140 object-scale-down"/>
+                                className="h-140 w-auto rounded-2xl shadow-xl shadow-black/30"/>
                         </div>
                     </div>
+                </div>
+                <div className='bg-dg text-white py-20 mt-30'>
+                    <h3 className='text-4xl text-center drop-shadow-4xl font-serif'>It was at his Ojibwe funeral that something shifted within me.</h3>
+                </div>
+                <div className='max-w-[1200px] mx-auto space-y-30 mt-30 px-6'>
                     <div className='flex flex-col md:flex-row justify-between items-center space-y-4'>
                         <div className="w-1/2 flex justify-center items-center">
                             <img src={profile} 
                                 alt="Profile Picture" 
-                                className="w-50 md:w-56 lg:w-70 xl:w-70 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10"/>
+                                className="w-50 md:w-56 lg:w-70 xl:w-70 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10 shadow-xl shadow-black/20"/>
                         </div>
                         <div className="w-full md:w-1/2 flex-col justify-center items-center space-y-4 text-l">
-                            <h3 className='text-4xl font-serif'> It was at his Ojibwe funeral that something shifted within me.</h3>
+                            <h3 className='text-4xl font-serif'>In that moment I realized what I had been missing, and I promised him — and myself — that I would walk more fully in who I am.</h3>
                             <p>
-                                In that moment I realized what I had been missing, and I promised him — and myself — that I would walk more fully in who I am.
+                                
                                 Today I teach my children to be proud of their Ojibwe roots, just as my father taught me.
                                 As I continue reconnecting with traditional teachings, I share this knowledge so others may better understand Indigenous perspectives and experiences. My hope is that no young Indigenous person grows up disconnected from their identity or feeling they must be ashamed of who they are.
                             </p>
                         </div>
                     </div>
-                    <div className='flex flex-col justify-between items-center font-serif text-xl space-y-2'>
+                </div>
+                <div className='font-serif text-4xl space-y-10 my-30 mx-auto text-text font-bold'>
                         <p>
                             Reconciliation begins with conversation.
                         </p>
-                        <p>
+                        <p className='px-15'>
                            It begins with curiosity. 
                         </p>
-                        <p>
+                        <p className='px-30'>
                             It begins with listening.
                         </p>
                         <p className='mt-6'>
                             And from those conversations, new understanding grows.
                         </p>
-                    </div>
                 </div>
             </main>
 

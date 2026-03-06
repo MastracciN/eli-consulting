@@ -14,7 +14,7 @@ export default function Header() {
         //     isHome ? "bg-transparent text-white" : "bg-gray-100 text-black"
         // }`}>
         <nav className="bg-main text-text py-4 px-6">
-            <div className=" flex items-center justify-between max-w-[1400px] mx-auto">
+            <div className=" flex items-center justify-between max-w-[1200px] mx-auto">
                 <NavLink to="/" className="inline-block">
                     <h1 className="sr-only">Blackbird Bimaadiziwin Consulting</h1>
                     <img
