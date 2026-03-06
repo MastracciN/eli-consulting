@@ -74,9 +74,9 @@ const About = () => {
                 <div className='max-w-[1200px] mx-auto space-y-30 mt-30 px-6'>
                     <div className='flex flex-col md:flex-row justify-between items-center space-y-4'>
                         <div className="w-1/2 flex justify-center items-center">
-                            <img src={profile} 
+                            {/* <img src={profile} 
                                 alt="Profile Picture" 
-                                className="w-50 md:w-56 lg:w-70 xl:w-70 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10 shadow-xl shadow-black/20"/>
+                                className="w-50 md:w-56 lg:w-70 xl:w-70 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10 shadow-xl shadow-black/20"/> */}
                         </div>
                         <div className="w-full md:w-1/2 flex-col justify-center items-center space-y-4 text-l">
                             <h3 className='text-4xl font-serif'>In that moment I realized what I had been missing, and I promised him — and myself — that I would walk more fully in who I am.</h3>
