@@ -23,7 +23,7 @@ export default function Header() {
                         className="h-12 w-auto md:h-18"
                     />
                 </NavLink>
-                <div className="flex space-x-6">
+                <div className="flex space-x-9">
                     {routes.map(({ path, name, end }) => (
                         <NavLink 
                             key={path} 
@@ -34,7 +34,7 @@ export default function Header() {
                                 after:absolute after:left-0 after:bottom-0
                                 after:h-[2px] after:bg-dg
                                 after:transition-all after:duration-300
-                                ${isActive ? "after:w-full font-bold" : "after:w-0 hover:after:w-full"}`
+                                ${isActive ? "after:w-full" : "after:w-0 hover:after:w-full"}`
                             }
                         >
                             {name}
