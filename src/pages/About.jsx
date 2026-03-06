@@ -5,9 +5,6 @@ import profile from '../assets/profile.jpg'
 import memorial from '../assets/memorial.jpg'
 import water from '../assets/water.jpg'
 import walking from '../assets/walking.jpg'
-import tree from '../assets/tree.jpg'
-import path from '../assets/path.jpg'
-import sun from '../assets/sun.jpg'
 
 const About = () => {
 
@@ -60,7 +57,7 @@ const About = () => {
                 </div>
 
                 <div className='max-w-[1200px] mx-auto space-y-30 mt-30 px-6'>
-                    <div className='flex flex-col md:flex-row  justify-center space-x-12 items-center space-y-2 md:space-y-0'>
+                    <div className='flex flex-col md:flex-row  justify-center space-x-12 items-center space-y-2 md:space-y-0 border-l-2 border-dg/50'>
                         <div className="w-full md:w-1/2 flex flex-col space-y-2 text-l">
                             <h3 className='text-4xl font-serif'>
                                 My father, <b>Julius</b>, was born and raised on Walpole Island. He was a Residential School survivor. He rarely spoke about his experience, 
@@ -112,7 +109,7 @@ const About = () => {
                 </div>
 
                 <div className='max-w-[1200px] mx-auto space-y-30 mt-30 px-6'>
-                    <div className='flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 '>
+                    <div className='flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:border-r-2 border-dg/50'>
                         <div className="w-1/2 relative flex justify-center items-center">
                             <div className="absolute top-0 left-0 h-30 w-30 bg-dg rounded-lg translate-x-8 -translate-y-4 z-10"></div>
                             <div className="absolute bottom-0 right-0 h-30 w-30 bg-dg rounded-lg -translate-x-8 translate-y-4 z-10"></div>
@@ -139,7 +136,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='font-serif text-4xl space-y-10 mt-40 mb-30 mx-auto text-text'>
+                <div className='font-serif text-4xl space-y-10 mt-40 mb-30 mx-auto text-text italic'>
                         <p>
                             Reconciliation begins with <b>conversation</b>.
                         </p>
