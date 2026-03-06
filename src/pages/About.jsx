@@ -3,7 +3,8 @@ import lakeHero from '../assets/lake-hero.jpg'
 import woodpattern from '../assets/woodpattern.jpg'
 import profile from '../assets/profile.jpg'
 import memorial from '../assets/memorial.jpg'
-import waterfall from '../assets/waterfall.jpg'
+import rocksitting from '../assets/rocksitting.jpg'
+import water from '../assets/water.jpg'
 import walking from '../assets/walking.jpg'
 
 const About = () => {
@@ -59,8 +60,8 @@ const About = () => {
                 </div>
 
                 <div className='max-w-[1200px] mx-auto space-y-30 mt-30 px-6'>
-                    <div className='flex flex-col md:flex-row justify-between items-center space-y-4'>
-                        <div className="w-full md:w-1/2 flex flex-col space-y-4 text-l">
+                    <div className='flex flex-col md:flex-row  justify-center space-x-12 items-center space-y-2 md:space-y-0'>
+                        <div className="w-full md:w-1/2 flex flex-col space-y-2 text-l">
                             <h3 className='text-4xl font-serif'>
                                 My father, <b>Julius</b>, was born and raised on Walpole Island. He was a Residential School survivor. He rarely spoke about his experience, 
                                 but he carried it throughout his life.   
@@ -84,7 +85,7 @@ const About = () => {
                         </div>
                         <img src={memorial} 
                             alt="Walpole Island Residential School Memorial" 
-                            className="h-140 w-auto rounded-2xl shadow-xl shadow-black/30"
+                            className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30"
                         />
                     </div>
                 </div>
@@ -101,11 +102,16 @@ const About = () => {
                 </div>
 
                 <div className='max-w-[1200px] mx-auto space-y-30 mt-30 px-6'>
-                    <div className='flex flex-col md:flex-row justify-between items-center space-y-4'>
-                        <div className="w-1/2 flex justify-center items-center">
+                    <div className='flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 '>
+                        <div className="w-1/2 relative flex justify-center items-center">
                             <img src={walking} 
                                 alt="Elijah and his daughter hiking in the forest" 
-                                className="h-100 w-100 rounded-2xl shadow-xl shadow-black/30 object-cover"/>
+                                className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover border-5 border-crm"
+                            />
+                            <img src={water} 
+                                alt="Looking out on a lake" 
+                                className="absolute bottom-0 left-0 h-60 w-60 rounded-xl shadow-lg shadow-black/40 object-cover -translate-x-6 translate-y-16"
+                            />
                         </div>
                         <div className="w-full md:w-1/2 flex-col justify-center items-center space-y-4 text-l">
                             <h3 className='text-4xl font-serif'>
