@@ -24,7 +24,7 @@ const Home = () => {
             </section>
 
             <main className='px-6'>
-                <div className="w-full max-w-[1400px] mx-auto">
+                <div className="max-w-[1400px] mx-auto">
 
                     {/* <section id="walking-together" className='py-20'>
                         <h2 className="text-4xl font-bold mb-8 font-serif">Walking Together in Two Worlds</h2>
@@ -94,7 +94,19 @@ const Home = () => {
                             </div>
                         </div>
 
-
+                        <NavLink
+                            to='/services'
+                            className="relative inline-block font-bold text-dg
+                            after:absolute after:left-0 after:bottom-[1px]
+                            after:h-[1px] after:w-full
+                            after:origin-left
+                            after:scale-x-0
+                            after:bg-current
+                            after:transition-transform after:duration-300
+                            hover:after:scale-x-100"
+                        >
+                            Learn more
+                        </NavLink>
                     </section>
 
 
