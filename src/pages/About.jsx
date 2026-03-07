@@ -136,7 +136,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='font-serif text-4xl space-y-10 mt-40 mb-30 mx-auto text-text italic'>
+                <div className='font-serif text-4xl space-y-10 mt-40 mb-30 mx-auto text-text italic md:border-l-2 md:pl-15 border-dg/50'>
                         <p>
                             Reconciliation begins with <b>conversation</b>.
                         </p>
