@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import ContactSection from '../components/ContactSection'
 import forest from '../assets/forest-hero.jpg'
+import canoe from '../assets/canoe.jpg'
 
 const Home = () => {
 
@@ -23,11 +24,77 @@ const Home = () => {
                 </div>
             </section>
 
-            <main className='px-6'>
-                <div className="max-w-[1400px] mx-auto">
+            <main className='px-6 md:px-0'>
+                <div className="">
+
+                    <section id="services" className='flex flex-col items-center py-20 space-y-2 bg-main'>
+                        <h2 className='text-3xl font-serif'>Our Services</h2>
+                        <p className='text-3xl font-serif'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
+                        <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px]'>
+                            <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-crm hover:bg-crm hover:shadow-xl border-1 border-dg/50'>
+                                <p className='text-2xl font-serif'>Indigenous Awareness & Truth Education</p>
+                                <p>Educational sessions designed to build understanding and empathy.</p>
+                            </div>
+
+                            <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-crm hover:bg-dg/20 hover:shadow-xl border-1 border-white'>
+                                <p className='text-2xl font-serif'>Education & Youth Engagement</p>
+                                <p>Working with educators and students to build understanding early.</p>
+                            </div>
+                            
+                            <div className='flex flex-col  flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-crm hover:bg-dg/20 hover:shadow-xl border-1 border-white'>
+                                <p className='text-2xl font-serif'>Reconciliation Strategy & Organizational Advisory</p>
+                                <p>Supporting organizations committed to meaningful change.</p>
+                            </div>
+                            
+                            <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-crm hover:bg-dg/20 hover:shadow-xl border-1 border-white'>
+                                <p className='text-2xl font-serif'>Community Relationship Building</p>
+                                <p>Helping organizations build respectful and lasting relationships with Indigenous communities.</p>
+                            </div>
+                        </div>
+
+                        <NavLink
+                            to='/services'
+                            className="relative inline-block font-bold text-white mt-10
+                            after:absolute after:left-0 after:bottom-[1px]
+                            after:h-[1px] after:w-full
+                            after:origin-left
+                            after:scale-x-0
+                            after:bg-current
+                            after:transition-transform after:duration-300
+                            hover:after:scale-x-100"
+                        >
+                            Learn more
+                        </NavLink>
+                    </section>
+
+                    <section id='values' className='mt-10 mb-30'>
+                        <div className='max-w-[1400px] mx-auto'>
+                            <div className='flex flex-col md:flex-row items-center justify-center space-x-8 space-y-4 md:space-y-0'>
+                                <div className='max-w-xl space-y-4'>
+                                    <h2 className='text-4xl font-serif'>Guided by the Seven Grandfather Teachings</h2>
+                                    <p>The work of Blackbird Bimaadiziwin Consulting is guided by teachings that have guided Anishinaabe people for generations.</p>
+
+                                    <div className='flex flex-col'>
+                                        <h3>Wisdom (Nbwaakaawin)</h3>
+                                        <h3>Love (Zaagi’idiwin)</h3>
+                                        <h3>Respect (Mnaadendimowin)</h3>
+                                        <h3>Bravery (Aakode’ewin)</h3>
+                                        <h3>Honesty (Gwekwaadziwin)</h3>
+                                        <h3>Humility (Dabaadendiziwin)</h3>
+                                        <h3>Truth (Debwewin) </h3>
+                                    </div>
+                                    <p>These teachings guide how we walk alongside organizations and communities.</p>
+                                </div>
+                                <img src={canoe} 
+                                    alt="Elijah and his daughter hiking in the forest" 
+                                    className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
+                                />
+                            </div>
+                        </div>
+                    </section>
 
                     {/* <section id="walking-together" className='py-20'>
-                        <h2 className="text-4xl font-bold mb-8 font-serif">Walking Together in Two Worlds</h2>
+                        <h2 className="text-4xl font-bold mb-8 font-serif text-center">Walking Together in Two Worlds</h2>
                         <p>
                             Guided by the principle of <b>Two-Eyed Seeing</b> — learning to see with the strengths of Indigenous knowledge and the strengths of Western systems 
                             — we help organizations walk in both worlds with integrity.
@@ -48,66 +115,29 @@ const Home = () => {
                         </p>
                     </section>
 
-                    <section id="bimaadiziwin" className='pb-20'>
-                        <h2 className='text-4xl font-bold mb-8 font-serif'>Bimaadiziwin – Living the Good Life</h2>
-                        <p>
-                            <em>Bimaadiziwin</em> teaches that a good life is built through balance, responsibility, and community.
-                        </p>
-                        <p>
-                            Indigenous teachings remind us that success is not measured only by achievement, but by how we care for one another and the relationships we build.
-                        </p>
-                        <p>
-                            Organizations often have the tools and intentions for change. What is often missing is connection — connection to history, connection to community, 
-                            and connection to the deeper responsibilities we share.
-                        </p>
-                        <p>
-                            This work helps rebuild those relationships.
-                        </p>
-                        <p>
-                            When trust is restored, transformation becomes possible.
-                        </p>
-                    </section> */}
-
-                    <section id="services" className='flex flex-col items-center mt-30 space-y-2 mb-30'>
-                        <h2 className='text-3xl font-serif'>Our Services</h2>
-                        <h3 className='text-3xl font-serif'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</h3>
-                        
-                        <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0'>
-                            <div className='flex flex-col flex-1 space-y-2 p-6 rounded-lg transition-all duration-300 hover:bg-dg/20 hover:shadow-xl border-1 border-dg'>
-                                <p className='text-2xl font-serif'>Indigenous Awareness & Truth Education</p>
-                                <p>Educational sessions designed to build understanding and empathy.</p>
-                            </div>
-
-                            <div className='flex flex-col flex-1 space-y-2 p-6 rounded-lg transition-all duration-300 hover:bg-dg/20 hover:shadow-xl border-1 border-dg'>
-                                <p className='text-2xl font-serif'>Education & Youth Engagement</p>
-                                <p>Working with educators and students to build understanding early.</p>
-                            </div>
-                            
-                            <div className='flex flex-col  flex-1 space-y-2 p-6 rounded-lg transition-all duration-300 hover:bg-dg/20 hover:shadow-xl border-1 border-dg'>
-                                <p className='text-2xl font-serif'>Reconciliation Strategy & Organizational Advisory</p>
-                                <p>Supporting organizations committed to meaningful change.</p>
-                            </div>
-                            
-                            <div className='flex flex-col flex-1 space-y-2 p-6 rounded-lg transition-all duration-300 hover:bg-dg/20 hover:shadow-xl border-1 border-dg'>
-                                <p className='text-2xl font-serif'>Community Relationship Building</p>
-                                <p>Helping organizations build respectful and lasting relationships with Indigenous communities.</p>
+                    <section id='bimaadiziwin'>
+                        <div className='flex flex-col md:flex-row'>
+                            <div className='flex flex-col'>
+                                <h2>Bimaadiziwin - Living the Good Life</h2>
+                                <p>
+                                    <em>Bimaadiziwin</em> teaches that a good life is built through balance, responsibility, and community.
+                                </p>
+                                <p>
+                                    Indigenous teachings remind us that success is not measured only by achievement, but by how we care for one another and the relationships we build.
+                                </p>
+                                <p>
+                                    Organizations often have the tools and intentions for change. What is often missing is connection — connection to history, 
+                                    connection to community, and connection to the deeper responsibilities we share.
+                                </p>
+                                <p>
+                                    This work helps rebuild those relationships.
+                                </p>
+                                <p>
+                                    When trust is restored, transformation becomes possible.
+                                </p>
                             </div>
                         </div>
-
-                        <NavLink
-                            to='/services'
-                            className="relative inline-block font-bold text-dg mt-10
-                            after:absolute after:left-0 after:bottom-[1px]
-                            after:h-[1px] after:w-full
-                            after:origin-left
-                            after:scale-x-0
-                            after:bg-current
-                            after:transition-transform after:duration-300
-                            hover:after:scale-x-100"
-                        >
-                            Learn more
-                        </NavLink>
-                    </section>
+                    </section> */}
 
 
                 </div>
