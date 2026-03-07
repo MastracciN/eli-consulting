@@ -1,18 +1,24 @@
-import { NavLink } from 'react-router-dom';
-import ContactSection from '../components/ContactSection';
+import { NavLink } from 'react-router-dom'
+import ContactSection from '../components/ContactSection'
+import forest from '../assets/forest-hero.jpg'
 
 const Home = () => {
 
     return (
         <div>
             {/* Hero */}
-            <section id='hero' className='relative bg-cover bg-center px-6'>
-                <div className='absolute inset-0 bg-dg'></div>
+            <section 
+                id='hero' 
+                className='relative bg-cover bg-center px-6'
+                style={{ backgroundImage: `url(${forest})` }}    
+            >
+                <div className='absolute inset-0 bg-black/75'></div>
 
-                <div className='relative min-h-[50vh] flex items-center'>
-                    <div className='w-full max-w-[1400px] mx-auto text-white'>
-                        {/* <h1 className="text-5xl font-bold">Blackbird Bimaadiziwin Consulting</h1> */}
-                        <h2 className="text-5xl font-serif drop-shadow-lg">We are all related. What we do to one another, we do to ourselves.</h2>
+                <div className='relative min-h-[85vh] flex items-center'>
+                    <div className='max-w-[1400px] mx-auto text-white'>
+                        <h2 className="text-4xl md:text-6xl font-serif drop-shadow-lg px-2 py-8 md:p-0 font-bold">
+                            If your organization is ready to walk alongside Indigenous communities in a <em>meaningful</em> way, we welcome that journey together.
+                        </h2>
                     </div>
                 </div>
             </section>

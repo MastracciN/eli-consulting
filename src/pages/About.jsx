@@ -17,7 +17,7 @@ const About = () => {
             >
                 <div className='absolute inset-0 bg-black/60'></div>
 
-                <div className=' relative z-10 flex flex-col h-full items-center justify-center text-white'>
+                <div className=' relative flex flex-col h-full items-center justify-center text-white'>
                     <img 
                         src={profile} 
                         alt="Photo of Elijah" 
