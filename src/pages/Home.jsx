@@ -24,9 +24,9 @@ const Home = () => {
             </section>
 
             <main className='px-6'>
-                <div className="min-h-[50vh] w-full max-w-[1400px] mx-auto">
+                <div className="w-full max-w-[1400px] mx-auto">
 
-                    <section id="walking-together" className='py-20'>
+                    {/* <section id="walking-together" className='py-20'>
                         <h2 className="text-4xl font-bold mb-8 font-serif">Walking Together in Two Worlds</h2>
                         <p>
                             Guided by the principle of <b>Two-Eyed Seeing</b> — learning to see with the strengths of Indigenous knowledge and the strengths of Western systems 
@@ -66,6 +66,35 @@ const Home = () => {
                         <p>
                             When trust is restored, transformation becomes possible.
                         </p>
+                    </section> */}
+
+                    <section id="services" className='flex flex-col items-center mt-30 space-y-2 mb-30'>
+                        <h2 className='text-3xl font-serif'>Our Services</h2>
+                        <h3 className='text-3xl font-serif'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</h3>
+                        
+                        <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0'>
+                            <div className='flex flex-col flex-1 space-y-2 p-6 rounded-lg transition-all duration-300 hover:bg-dg/20 hover:shadow-xl'>
+                                <p className='text-2xl font-serif'>Indigenous Awareness & Truth Education</p>
+                                <p>Educational sessions designed to build understanding and empathy.</p>
+                            </div>
+
+                            <div className='flex flex-col flex-1 space-y-2 p-6 rounded-lg transition-all duration-300 hover:bg-dg/20 hover:shadow-xl'>
+                                <p className='text-2xl font-serif'>Education & Youth Engagement</p>
+                                <p>Working with educators and students to build understanding early.</p>
+                            </div>
+                            
+                            <div className='flex flex-col  flex-1 space-y-2 p-6 rounded-lg transition-all duration-300 hover:bg-dg/20 hover:shadow-xl'>
+                                <p className='text-2xl font-serif'>Reconciliation Strategy & Organizational Advisory</p>
+                                <p>Supporting organizations committed to meaningful change.</p>
+                            </div>
+                            
+                            <div className='flex flex-col flex-1 space-y-2 p-6 rounded-lg transition-all duration-300 hover:bg-dg/20 hover:shadow-xl'>
+                                <p className='text-2xl font-serif'>Community Relationship Building</p>
+                                <p>Helping organizations build respectful and lasting relationships with Indigenous communities.</p>
+                            </div>
+                        </div>
+
+
                     </section>
 
 
