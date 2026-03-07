@@ -15,8 +15,8 @@ const Home = () => {
                 <div className='absolute inset-0 bg-black/75'></div>
 
                 <div className='relative min-h-[85vh] flex items-center'>
-                    <div className='max-w-[1400px] mx-auto text-white'>
-                        <h2 className="text-4xl md:text-6xl font-serif drop-shadow-lg px-2 py-8 md:p-0 font-bold">
+                    <div className='max-w-[1400px] mx-auto w-full text-white text-left'>
+                        <h2 className="text-4xl md:text-6xl font-serif drop-shadow-lg py-8 md:p-0 font-bold max-w-5xl">
                             If your organization is ready to walk alongside Indigenous communities in a <em>meaningful</em> way, we welcome that journey together.
                         </h2>
                     </div>
