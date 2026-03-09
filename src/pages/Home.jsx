@@ -2,11 +2,12 @@ import { NavLink } from 'react-router-dom'
 import ContactSection from '../components/ContactSection'
 import forest from '../assets/forest-hero.jpg'
 import canoe from '../assets/canoe.jpg'
+import profile from '../assets/profile.jpg'
 
 const Home = () => {
 
     return (
-        <div>
+        <div className='bg-main'>
             <section 
                 id='hero' 
                 className='relative bg-cover bg-center px-6'
@@ -26,7 +27,7 @@ const Home = () => {
             <main className='px-6 md:px-0'>
                 <div className="">
 
-                    <section id="services" className='flex flex-col items-center py-20 space-y-2 bg-main'>
+                    <section id="services" className='flex flex-col items-center py-20 space-y-2'>
                         <h2 className='text-3xl font-serif'>Our Services</h2>
                         <p className='text-3xl font-serif'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
                         <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px]'>
@@ -66,7 +67,7 @@ const Home = () => {
                         </NavLink>
                     </section>
 
-                    <section id='values' className='mt-10 mb-30'>
+                    <section id='values' className='mb-30'>
                         <div className='max-w-[1400px] mx-auto'>
                             <div className='flex flex-col md:flex-row items-center justify-center md:space-x-8 space-y-10 md:space-y-0'>
                                 <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
@@ -105,6 +106,38 @@ const Home = () => {
                                     alt="Point of View of a Canoe looking out on the water" 
                                     className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
                                 />
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section id='values' className='mb-30'>
+                        <div className='max-w-[1400px] mx-auto'>
+                            <div className='flex flex-col md:flex-row items-center justify-center md:space-x-8 space-y-10 md:space-y-0'>
+                                <img src={profile} 
+                                    alt="Point of View of a Canoe looking out on the water" 
+                                    className="h-80 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
+                                />
+                                <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
+                                    <h2 className='text-4xl font-serif'>About the Founder</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+                                    <NavLink
+                                        to='/about'
+                                        className="relative inline-block font-bold text-dg mt-5
+                                        after:absolute after:left-0 after:bottom-[1px]
+                                        after:h-[1px] after:w-full
+                                        after:origin-left
+                                        after:scale-x-0
+                                        after:bg-current
+                                        after:transition-transform after:duration-300
+                                        hover:after:scale-x-100"
+                                    >
+                                        Learn More
+                                    </NavLink>
+                                </div>
+
                             </div>
                         </div>
                     </section>
