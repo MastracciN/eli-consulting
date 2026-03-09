@@ -7,7 +7,6 @@ const Home = () => {
 
     return (
         <div>
-            {/* Hero */}
             <section 
                 id='hero' 
                 className='relative bg-cover bg-center px-6'
@@ -54,7 +53,7 @@ const Home = () => {
 
                         <NavLink
                             to='/services'
-                            className="relative inline-block font-bold text-white mt-10
+                            className="relative inline-block font-bold text-dg mt-10
                             after:absolute after:left-0 after:bottom-[1px]
                             after:h-[1px] after:w-full
                             after:origin-left
@@ -63,82 +62,52 @@ const Home = () => {
                             after:transition-transform after:duration-300
                             hover:after:scale-x-100"
                         >
-                            Learn more
+                            Learn More
                         </NavLink>
                     </section>
 
                     <section id='values' className='mt-10 mb-30'>
                         <div className='max-w-[1400px] mx-auto'>
-                            <div className='flex flex-col md:flex-row items-center justify-center space-x-8 space-y-4 md:space-y-0'>
-                                <div className='max-w-xl space-y-4'>
-                                    <h2 className='text-4xl font-serif'>Guided by the Seven Grandfather Teachings</h2>
-                                    <p>The work of Blackbird Bimaadiziwin Consulting is guided by teachings that have guided Anishinaabe people for generations.</p>
-
-                                    <div className='flex flex-col'>
-                                        <h3>Wisdom (Nbwaakaawin)</h3>
-                                        <h3>Love (Zaagi’idiwin)</h3>
-                                        <h3>Respect (Mnaadendimowin)</h3>
-                                        <h3>Bravery (Aakode’ewin)</h3>
-                                        <h3>Honesty (Gwekwaadziwin)</h3>
-                                        <h3>Humility (Dabaadendiziwin)</h3>
-                                        <h3>Truth (Debwewin) </h3>
-                                    </div>
-                                    <p>These teachings guide how we walk alongside organizations and communities.</p>
+                            <div className='flex flex-col md:flex-row items-center justify-center md:space-x-8 space-y-10 md:space-y-0'>
+                                <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
+                                    <h2 className='text-4xl font-serif'>Bimaadiziwin - Living the Good Life</h2>
+                                    <p>
+                                        <em>Bimaadiziwin</em> teaches that a good life is built through balance, responsibility, and community.
+                                    </p>
+                                    <p>
+                                        Indigenous teachings remind us that success is not measured only by achievement, but by how we care for one another and the relationships we build.
+                                    </p>
+                                    <p>
+                                        Organizations often have the tools and intentions for change. What is often missing is connection — connection to history, 
+                                        connection to community, and connection to the deeper responsibilities we share.
+                                    </p>
+                                    <p>
+                                        This work helps rebuild those relationships.
+                                    </p>
+                                    <p>
+                                        When trust is restored, transformation becomes possible.
+                                    </p>
+                                    <NavLink
+                                        to='/services'
+                                        className="relative inline-block font-bold text-dg mt-5
+                                        after:absolute after:left-0 after:bottom-[1px]
+                                        after:h-[1px] after:w-full
+                                        after:origin-left
+                                        after:scale-x-0
+                                        after:bg-current
+                                        after:transition-transform after:duration-300
+                                        hover:after:scale-x-100"
+                                    >
+                                        Learn More
+                                    </NavLink>
                                 </div>
                                 <img src={canoe} 
-                                    alt="Elijah and his daughter hiking in the forest" 
+                                    alt="Point of View of a Canoe looking out on the water" 
                                     className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
                                 />
                             </div>
                         </div>
                     </section>
-
-                    {/* <section id="walking-together" className='py-20'>
-                        <h2 className="text-4xl font-bold mb-8 font-serif text-center">Walking Together in Two Worlds</h2>
-                        <p>
-                            Guided by the principle of <b>Two-Eyed Seeing</b> — learning to see with the strengths of Indigenous knowledge and the strengths of Western systems 
-                            — we help organizations walk in both worlds with integrity.
-                        </p>
-                        <p>  
-                            Our work is inspired by the Two Row Wampum (Kaswentha), a treaty teaching that reminds us we travel the river of life in separate vessels. 
-                            Each vessel carries its own laws, governance, and ways of knowing. We do not steer each other’s canoe.
-                        </p>
-                        <p>
-                            Instead, we travel side by side with respect.
-                        
-                        </p>
-                        <p>
-                            Reconciliation is not about becoming the same.
-                        </p>
-                        <p>
-                            It is about strengthening one another while honouring difference.
-                        </p>
-                    </section>
-
-                    <section id='bimaadiziwin'>
-                        <div className='flex flex-col md:flex-row'>
-                            <div className='flex flex-col'>
-                                <h2>Bimaadiziwin - Living the Good Life</h2>
-                                <p>
-                                    <em>Bimaadiziwin</em> teaches that a good life is built through balance, responsibility, and community.
-                                </p>
-                                <p>
-                                    Indigenous teachings remind us that success is not measured only by achievement, but by how we care for one another and the relationships we build.
-                                </p>
-                                <p>
-                                    Organizations often have the tools and intentions for change. What is often missing is connection — connection to history, 
-                                    connection to community, and connection to the deeper responsibilities we share.
-                                </p>
-                                <p>
-                                    This work helps rebuild those relationships.
-                                </p>
-                                <p>
-                                    When trust is restored, transformation becomes possible.
-                                </p>
-                            </div>
-                        </div>
-                    </section> */}
-
 
                 </div>
             </main>
