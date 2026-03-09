@@ -11,7 +11,7 @@ export default function Footer() {
                     <img
                         src={logo}
                         alt="Blackbird Bimaadiziwin Consulting"
-                        className="h-18 w-auto md:h-22"
+                        className="h-12 w-auto md:h-18"
                     />
                 </div>
                 <div id="right-col" className="flex flex-1 flex-col items-start space-y-1">
