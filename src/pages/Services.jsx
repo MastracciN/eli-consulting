@@ -1,4 +1,5 @@
 import forest from '../assets/forest-hero.jpg'
+import woodpattern from '../assets/woodpattern.jpg'
 import ContactSection from '../components/ContactSection';
 
 const Services = () => {
@@ -25,7 +26,32 @@ const Services = () => {
             </section>
 
             <main className='px-6 md:px-0'>
-                    <section id='walkingtogether' className='mt-20'>
+                    <div className='relative bg-dg text-white py-20 overflow-hidden'>
+                        <div 
+                            className="absolute inset-0 opacity-2 bg-repeat"
+                            alt='Wood pattern'
+                            style={{ backgroundImage: `url(${woodpattern})` }}    
+                        ></div>
+                        <div className='justify-center max-w-[800px] mx-auto flex flex-col space-y-2'>
+                            <h3 className='text-4xl drop-shadow-5xl font-serif'>Walking Together in Two Worlds</h3>
+                            <p>Blackbird Bimaadiziwin Consulting is rooted in relationship.</p>
+                            <p>
+                                Guided by the principle of Two-Eyed Seeing — learning to see 
+                                with the strengths of Indigenous knowledge and the strengths of 
+                                Western systems — we help organizations walk in both worlds with integrity.
+                            </p>
+                            <p>
+                                Our work is inspired by the Two Row Wampum (Kaswentha), a treaty teaching that 
+                                reminds us we travel the river of life in separate vessels. Each vessel carries 
+                                its own laws, governance, and ways of knowing. We do not steer each other’s canoe.
+                            </p>
+                            <p>Instead, we travel side by side with respect.</p>
+                            <p>Reconciliation is not about becoming the same.</p>
+                            <p>It is about strengthening one another while honouring difference.</p>
+                        </div>
+                    </div>
+
+                    {/* <section id='walkingtogether' className='mt-20'>
                         <div className='max-w-[1400px] mx-auto w-full flex flex-col space-y-2'>
                             <h2 className='text-4xl font-serif'>Walking Together in Two Worlds</h2>
                             <p>Blackbird Bimaadiziwin Consulting is rooted in relationship.</p>
@@ -44,7 +70,8 @@ const Services = () => {
                             <p>It is about strengthening one another while honouring difference.</p>
                         </div>
 
-                    </section>
+                    </section> */}
+
                     <section id="services" className='flex flex-col items-center py-20 space-y-2'>
 
                         <h2 className='text-3xl font-serif'>Our Services</h2>
@@ -112,42 +139,45 @@ const Services = () => {
 
                     </section>
 
-                    <section id='values' className='max-w-[1400px] mx-auto'>
+                    <section id='values' className='max-w-[1400px] mx-auto mb-20'>
                         <h2 className='text-4xl font-serif'>Our Values</h2>
-                        <h3 className='text-3xl font-serif'>Guided by the Seven Grandfather Teachings</h3>
-                        <p>The work of Blackbird Bimaadiziwin Consulting is guided by teachings that have guided Anishinaabe people for generations.</p>
-                        <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 mx-auto'>
-                            <div className='max-w-sm'>
+                        <h3 className='text-3xl font-serif pt-2'>Guided by the Seven Grandfather Teachings</h3>
+                        <p className='pt-2'>The work of Blackbird Bimaadiziwin Consulting is guided by teachings that have guided Anishinaabe people for generations.</p>
+                        <div className='flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 mt-8 justify-center items-center'>
+                            <div className='p-4 text-center rounded-lg bg-crm border-1 border-dg/50 max-w-[300px] '>
                                 <h4>Wisdom (Nbwaakaawin)</h4>
                                 <p>Using knowledge and experience to guide decisions that benefit the community.</p>
                             </div>
-                            <div className='max-w-sm'>
+                            <div className='p-4 text-center rounded-lg bg-crm border-1 border-dg/50 max-w-[300px]'>
                                 <h4>Love (Zaagi’idiwin)</h4>
                                 <p>Approaching this work with compassion and care for people and relationships.</p>
                             </div>
-                            <div className='max-w-sm'>
+                            <div className='p-4 md:py-7 text-center rounded-lg bg-crm border-1 border-dg/50 max-w-[300px]'>
                                 <h4>Respect (Mnaadendimowin)</h4>
                                 <p>Honouring the dignity, knowledge, and perspectives of all people.</p>
                             </div>
-                            <div className='max-w-sm'>
+                            <div className='p-4 md:py-7 text-center rounded-lg bg-crm border-1 border-dg/50 max-w-[300px]'>
                                 <h4>Bravery (Aakode’ewin)</h4>
                                 <p>Having the courage to speak truth and engage in difficult conversations.</p>
                             </div>
-                            <div className='max-w-sm'>
+                        </div>
+
+                        <div className='flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 mt-2 md:mt-8 justify-center items-center'>
+                            <div className='p-4 md:py-7 text-center rounded-lg bg-crm border-1 border-dg/50 max-w-[300px]'>
                                 <h4>Honesty (Gwekwaadziwin)</h4>
                                 <p>Walking with integrity and openness in all relationships.</p>
                             </div>
-                            <div className='max-w-sm'>
+                            <div className='p-4 md:py-7 text-center rounded-lg bg-crm border-1 border-dg/50 max-w-[300px]'>
                                 <h4>Humility (Dabaadendiziwin)</h4>
                                 <p>Recognizing that we are all part of something greater than ourselves.</p>
                             </div>
-                            <div className='max-w-sm'>
+                            <div className='p-4 text-center rounded-lg bg-crm border-1 border-dg/50 max-w-[300px]'>
                                 <h4>Truth (Debwewin)</h4>
                                 <p>Seeking understanding through listening, reflection, and shared learning.</p>
                             </div>
                         </div>
 
-                        <p>These teachings guide how we walk alongside organizations and communities.</p>
+                        <p className='mt-8'>These teachings guide how we walk alongside organizations and communities.</p>
                     </section>
 
                     <ContactSection/>
