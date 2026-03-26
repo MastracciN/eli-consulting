@@ -1,6 +1,7 @@
 import forest from '../assets/forest-hero.jpg'
 import woodpattern from '../assets/woodpattern.jpg'
-import feather from '../assets/blackbird-feather.svg'
+// import feather from '../assets/blackbird-feather.svg'
+import feather from '../assets/blackbird-feather-white.png'
 import ContactSection from '../components/ContactSection';
 
 const Services = () => {
@@ -29,7 +30,7 @@ const Services = () => {
             <main>
                 <div className='relative bg-dg text-white py-20 overflow-hidden'>
                     <div 
-                        className="absolute inset-0 opacity-2 bg-repeat"
+                        className="absolute inset-0 opacity-2 bg-repeat z-0"
                         alt='Wood pattern'
                         style={{ backgroundImage: `url(${woodpattern})` }}    
                     ></div>
@@ -51,10 +52,12 @@ const Services = () => {
                                 <p>Reconciliation is not about becoming the same.</p>
                                 <p>It is about strengthening one another while honouring difference.</p>
                         </div>
+                        <div className='flex-1 flex justify-center items-center'>
                             <img src={feather} 
                                 alt="Point of View of a Canoe looking out on the water" 
-                                className="h-80 w-auto z-20"
+                                className="h-50 w-auto z-20"
                             />
+                        </div>
                     </div>
                 </div>
 
