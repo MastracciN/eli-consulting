@@ -99,15 +99,21 @@ const Services = () => {
                             <p className='text-2xl font-serif font-semibold tracking-wide'>Indigenous Awareness & Truth Education</p>
                             <p className='text-white/90'>Educational sessions designed to build understanding and empathy.</p>
                             <p className='text-white/80 font-medium'>Topics include:</p>
-                            <ul className='list-disc pl-5 space-y-1 text-white/90 marker:text-white'>
-                                <li>Indigenous history in Canada</li>
-                                <li>Residential Schools and intergenerational impacts</li>
-                                <li>Truth and Reconciliation Commission Calls to Action</li>
-                                <li>Treaties and the Two Row Wampum</li>
-                                <li>Allyship and shared responsibility</li>
-                            </ul>
+                            <div className='flex flex-col md:flex-row'>
+                                <ul className='list-disc pl-5 space-y-1 text-white/90 marker:text-white'>
+                                    <li>Indigenous history in Canada</li>
+                                    <li>Residential Schools and intergenerational impacts</li>
+                                    <li>Truth and Reconciliation Commission Calls to Action</li>
+                                    <li>Treaties and the Two Row Wampum</li>
+                                    <li>Allyship and shared responsibility</li>
+                                </ul>
+                                <div className='flex-1 flex items-start justify-end'>
+                                    <div className='border-3 p-4 border-white rounded-full'>
+                                        <HeartHandshake className='w-12 h-auto'/>
+                                    </div>
+                                </div>
+                            </div>
                             <p className='text-white/80'>These sessions create safe spaces for questions, learning, and meaningful dialogue.</p>
-                            <HeartHandshake className='w-6 h-6'/>
                         </div>
 
                         <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-dg text-white hover:bg-dg/90 hover:shadow-xl'>
