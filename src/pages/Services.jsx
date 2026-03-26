@@ -89,22 +89,26 @@ const Services = () => {
                     </div>
 
                     <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px] mx-auto w-full'>
-                        <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-crm hover:bg-black/10 hover:shadow-xl border-1 border-dg/50'>
-
-                            <p className='text-2xl font-serif'>Indigenous Awareness & Truth Education</p>
-                            <p>Educational sessions designed to build understanding and empathy.</p>
-                            <p>Topics include:</p>
-                            <ul className='list-disc pl-5'>
+                        {/* <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-crm hover:bg-black/10 hover:shadow-xl border-1 border-dg/50'> */}
+                        <div className='flex flex-col flex-1 space-y-4 p-8 rounded-lg transition-all duration-300 bg-dg/95 text-white 
+                            hover:-translate-y-1 hover:shadow-2xl hover:bg-dg leading-relaxed'>
+                        {/* <div className='group flex flex-col flex-1 p-8 rounded-2xl bg-dg/95 text-white 
+                            border border-white/10 shadow-md 
+                            transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:bg-dg'> */}
+                            <p className='text-2xl font-serif font-semibold tracking-wide'>Indigenous Awareness & Truth Education</p>
+                            <p className='text-white/90'>Educational sessions designed to build understanding and empathy.</p>
+                            <p className='text-white/80 font-medium'>Topics include:</p>
+                            <ul className='list-disc pl-5 space-y-1 text-white/90 marker:text-white'>
                                 <li>Indigenous history in Canada</li>
                                 <li>Residential Schools and intergenerational impacts</li>
                                 <li>Truth and Reconciliation Commission Calls to Action</li>
                                 <li>Treaties and the Two Row Wampum</li>
                                 <li>Allyship and shared responsibility</li>
                             </ul>
-                            <p>These sessions create safe spaces for questions, learning, and meaningful dialogue.</p>
+                            <p className='text-white/80'>These sessions create safe spaces for questions, learning, and meaningful dialogue.</p>
                         </div>
 
-                        <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-crm hover:bg-black/10 hover:shadow-xl border-1 border-dg/50'>
+                        <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-dg text-white hover:bg-dg/90 hover:shadow-xl'>
                             <p className='text-2xl font-serif'>Education & Youth Engagement</p>
                             <p>Working with educators and students to build understanding early.</p>
                             <p>Programs include:</p>
