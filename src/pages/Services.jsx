@@ -2,7 +2,8 @@ import forest from '../assets/forest-hero.jpg'
 import woodpattern from '../assets/woodpattern.jpg'
 // import feather from '../assets/blackbird-feather.svg'
 import feather from '../assets/blackbird-feather-white.png'
-import ContactSection from '../components/ContactSection';
+import { HeartHandshake } from 'lucide-react'
+import ContactSection from '../components/ContactSection'
 
 const Services = () => {
 
@@ -106,6 +107,7 @@ const Services = () => {
                                 <li>Allyship and shared responsibility</li>
                             </ul>
                             <p className='text-white/80'>These sessions create safe spaces for questions, learning, and meaningful dialogue.</p>
+                            <HeartHandshake className='w-6 h-6'/>
                         </div>
 
                         <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-dg text-white hover:bg-dg/90 hover:shadow-xl'>
