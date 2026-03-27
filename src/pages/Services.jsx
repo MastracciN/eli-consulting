@@ -116,7 +116,32 @@ const Services = () => {
                             <p className='text-white/80'>These sessions create safe spaces for questions, learning, and meaningful dialogue.</p>
                         </div>
 
-                        <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-dg text-white hover:bg-dg/90 hover:shadow-xl'>
+                        <div className='flex flex-col flex-1 space-y-4 p-8 rounded-lg transition-all duration-300 bg-crm/90
+                            hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
+                            <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
+                                <HeartHandshake className='w-12 h-12 text-dg'/>
+                                <p className='text-3xl font-serif'>Indigenous Awareness & Truth Education</p>
+                            </div>
+                            <p className='text-black/90'>Educational sessions designed to build understanding and empathy.</p>
+                            <p className='text-black/80 font-medium'>Topics include:</p>
+                            <div className='flex flex-col md:flex-row'>
+                                <ul className='list-disc pl-5 space-y-1 text-black/90'>
+                                    <li>Indigenous history in Canada</li>
+                                    <li>Residential Schools and intergenerational impacts</li>
+                                    <li>Truth and Reconciliation Commission Calls to Action</li>
+                                    <li>Treaties and the Two Row Wampum</li>
+                                    <li>Allyship and shared responsibility</li>
+                                </ul>
+                                {/* <div className='flex-1 flex items-start justify-end'>
+                                    <div className='border-3 p-4 border-dg rounded-full'>
+                                        <HeartHandshake className='w-12 h-12 text-dg'/>
+                                    </div>
+                                </div> */}
+                            </div>
+                            <p className='text-black/80'>These sessions create safe spaces for questions, learning, and meaningful dialogue.</p>
+                        </div>
+
+                        {/* <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-dg text-white hover:bg-dg/90 hover:shadow-xl'>
                             <p className='text-2xl font-serif'>Education & Youth Engagement</p>
                             <p>Working with educators and students to build understanding early.</p>
                             <p>Programs include:</p>
@@ -127,7 +152,7 @@ const Services = () => {
                                 <li>Encouraging youth to ask questions and explore shared truths</li>
                             </ul>
                             <p>Helping young people understand our shared history builds a stronger future for everyone.</p>
-                        </div>
+                        </div> */}
 
                     </div>
 
