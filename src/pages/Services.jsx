@@ -1,8 +1,8 @@
 import forest from '../assets/forest-hero.jpg'
 import woodpattern from '../assets/woodpattern.jpg'
 // import feather from '../assets/blackbird-feather.svg'
-import feather from '../assets/blackbird-feather-white.png'
-import { HeartHandshake } from 'lucide-react'
+import featherwhite from '../assets/blackbird-feather-white.png'
+import { HeartHandshake, Feather } from 'lucide-react'
 import ContactSection from '../components/ContactSection'
 
 const Services = () => {
@@ -28,7 +28,7 @@ const Services = () => {
                 </div>
             </section>
 
-            <main>
+            <main className='bg-main'>
                 <div className='relative bg-dg text-white py-20 overflow-hidden'>
                     <div 
                         className="absolute inset-0 opacity-2 bg-repeat z-0"
@@ -54,7 +54,7 @@ const Services = () => {
                                 <p>It is about strengthening one another while honouring difference.</p>
                         </div>
                         <div className='flex-1 flex justify-center items-center'>
-                            <img src={feather} 
+                            <img src={featherwhite} 
                                 alt="Point of View of a Canoe looking out on the water" 
                                 className="h-50 w-auto z-20"
                             />
@@ -100,7 +100,7 @@ const Services = () => {
                             <p className='text-white/90'>Educational sessions designed to build understanding and empathy.</p>
                             <p className='text-white/80 font-medium'>Topics include:</p>
                             <div className='flex flex-col md:flex-row'>
-                                <ul className='list-disc pl-5 space-y-1 text-white/90 marker:text-white'>
+                                <ul className='pl-5 space-y-2 text-white/90 marker:text-white'>
                                     <li>Indigenous history in Canada</li>
                                     <li>Residential Schools and intergenerational impacts</li>
                                     <li>Truth and Reconciliation Commission Calls to Action</li>
@@ -125,12 +125,32 @@ const Services = () => {
                             <p className='text-black/90'>Educational sessions designed to build understanding and empathy.</p>
                             <p className='text-black/80 font-medium'>Topics include:</p>
                             <div className='flex flex-col md:flex-row'>
-                                <ul className='list-disc pl-5 space-y-1 text-black/90'>
-                                    <li>Indigenous history in Canada</li>
-                                    <li>Residential Schools and intergenerational impacts</li>
+                                {/* change list icons to feathers */}
+                                <ul className='pl-5 space-y-2 text-black/90'>
+                                    <li className='flex space-x-2'>
+                                        <Feather className='w-4 h-4 mt-1 text-dg shrink-0'/>
+                                        <span>Indigenous history in Canada</span>
+                                    </li>
+                                    <li className='flex space-x-2'>
+                                        <Feather className='w-4 h-4 mt-1 text-dg shrink-0'/>
+                                        <span>Residential Schools and intergenerational impacts</span>
+                                    </li>
+                                    <li className='flex space-x-2'>
+                                        <Feather className='w-4 h-4 mt-1 text-dg shrink-0'/>
+                                        <span>Truth and Reconciliation Commission Calls to Action</span>
+                                    </li>
+                                    <li className='flex space-x-2'>
+                                        <Feather className='w-4 h-4 mt-1 text-dg shrink-0'/>
+                                        <span>Treaties and the Two Row Wampum</span>
+                                    </li>
+                                    <li className='flex space-x-2'>
+                                        <Feather className='w-4 h-4 mt-1 text-dg shrink-0'/>
+                                        <span>Allyship and shared responsibility</span>
+                                    </li>
+                                    {/* <li>Residential Schools and intergenerational impacts</li>
                                     <li>Truth and Reconciliation Commission Calls to Action</li>
                                     <li>Treaties and the Two Row Wampum</li>
-                                    <li>Allyship and shared responsibility</li>
+                                    <li>Allyship and shared responsibility</li> */}
                                 </ul>
                                 {/* <div className='flex-1 flex items-start justify-end'>
                                     <div className='border-3 p-4 border-dg rounded-full'>
