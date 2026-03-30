@@ -84,26 +84,28 @@ const Contact = () => {
                             className="space-y-6 max-w-[600px]"
                         >
                             <div>
-                                <label className="block mb-2 font-medium">Name</label>
+                                <label className="block mb-1 font-medium">Name</label>
                                 <input type='text' name='name'
-                                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black"
+                                    className="w-full border-b-2 border-dg/50 px-4 py-3 focus:outline-none focus:ring-2 focus:rounded-lg focus:ring-black"
                                     required
                                 />
-                                <label className="block mb-2 font-medium">Email</label>
+                                <label className="block mb-1 mt-6 font-medium">Email</label>
                                 <input type='text' name='email'
-                                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black"
+                                    className="w-full border-b-2 border-dg/50 px-4 py-3 focus:outline-none focus:ring-2 focus:rounded-lg focus:ring-black"
                                     required
                                 /> 
-                                <label className="block mb-2 font-medium">Message</label>
-                                <input type='text' name='message'
-                                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-black"
+                                <label className="block mb-1 mt-6 font-medium">Message</label>
+                                <textarea 
+                                    name='message'
+                                    rows={4}
+                                    className="w-full border-b-2 border-dg/50 px-4 py-3 focus:outline-none focus:ring-2 focus:rounded-lg focus:ring-black resize-y"
                                     required
                                 />  
                             </div>
 
                             <button type='submit'
-                                className='px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition'
-                            >Send Message
+                                className='px-6 py-3 bg-dg/90 text-white font-semibold rounded-lg hover:bg-dg transition'
+                            >Submit
                             </button>
                         </form>
                     </div>
