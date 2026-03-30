@@ -28,7 +28,7 @@ const Contact = () => {
             >
                 <div className='absolute inset-0 bg-black/75'></div>
 
-                <div className='relative min-h-[40vh] flex justify-center text-white text-center items-center'>
+                <div className='max-w-[1200px] mx-auto relative min-h-[30vh] flex text-white text-center items-center'>
                         <h3 className="text-4xl md:text-6xl font-serif drop-shadow-lg py-8 md:p-0 font-bold max-w-5xl">
                             Contact Us
                         </h3>
@@ -36,27 +36,31 @@ const Contact = () => {
             </section>
 
 
-            <section id='contact' className="w-full">
-                <div className='w-full max-w-[1200px] mx-auto px-6 py-12 flex flex-col md:flex-row'>
+            <section id='contact' className="">
+                <div className='flex flex-col md:flex-row space-x-0 md:space-x-12 max-w-[1200px] mx-auto px-6 py-12'>
 
-                    <div id='left-col' className="flex-1 flex flex-col items-start justify-center">
-                        <p className="font-medium">LinkedIn</p>
-                        <a 
-                            href="https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="relative inline-block text-blue-600
-                                       after:absolute after:left-0 after:bottom-0
-                                       after:h-[1px] after:w-0
-                                       after:bg-blue-600
-                                       after:transition-all after:duration-300
-                                       hover:after:w-full"
-                        >https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/
-                        </a>
+                    <div className="flex flex-1 flex-col justify-center">
+                        <div className='pl-8 py-4 border-l-2 border-dg/50'>
+                            <h2 className='text-5xl font-serif'>Get in touch</h2>
+                            <p className='mt-4'>If you would like to work with us or learn more, don't hesitate to send a message. We would love to hear from you.</p>
+                            {/* <a 
+                                href="https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="relative inline-block text-blue-600
+                                        after:absolute after:left-0 after:bottom-0
+                                        after:h-[1px] after:w-0
+                                        after:bg-blue-600
+                                        after:transition-all after:duration-300
+                                        hover:after:w-full"
+                            >
+                                https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/
+                            </a> */}
+                        </div>
                     </div>
 
-                    <div id='right-col' className="flex-1">
-                        <h2 className="text-4xl font-bold mb-8">Contact</h2>
+                    <div className="flex-1">
+                        <h2 className="text-3xl font-serif border-b-2 border-dg/50 pb-4 mb-8">Send us a message</h2>
                         <form
                             onSubmit={handleSubmit}
                             className="space-y-6 max-w-[600px]"
@@ -85,8 +89,9 @@ const Contact = () => {
                             </button>
                         </form>
                     </div>
-
                 </div>
+
+
             </section>
 
 
