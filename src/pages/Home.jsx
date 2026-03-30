@@ -31,22 +31,26 @@ const Home = () => {
                         <h2 className='text-3xl font-serif'>Our Services</h2>
                         <p className='text-3xl font-serif'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
                         <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px]'>
-                            <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-crm hover:bg-black/10 hover:shadow-xl border-1 border-dg/50'>
+                            <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
+                            hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                                 <p className='text-2xl font-serif'>Indigenous Awareness & Truth Education</p>
                                 <p>Educational sessions designed to build understanding and empathy.</p>
                             </div>
 
-                            <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-crm hover:bg-black/10 hover:shadow-xl border-1 border-dg/50'>
+                            <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
+                            hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                                 <p className='text-2xl font-serif'>Education & Youth Engagement</p>
                                 <p>Working with educators and students to build understanding early.</p>
                             </div>
                             
-                            <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-crm hover:bg-black/10 hover:shadow-xl border-1 border-dg/50'>
+                            <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
+                            hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                                 <p className='text-2xl font-serif'>Reconciliation Strategy & Organizational Advisory</p>
                                 <p>Supporting organizations committed to meaningful change.</p>
                             </div>
                             
-                            <div className='flex flex-col flex-1 space-y-2 p-8 rounded-lg transition-all duration-300 bg-crm hover:bg-black/10 hover:shadow-xl border-1 border-dg/50'>
+                            <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
+                            hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                                 <p className='text-2xl font-serif'>Community Relationship Building</p>
                                 <p>Helping organizations build respectful and lasting relationships with Indigenous communities.</p>
                             </div>
