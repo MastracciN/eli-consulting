@@ -57,6 +57,24 @@ const Contact = () => {
                                 https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/
                             </a> */}
                         </div>
+                        <div className='flex mt-8 ml-8'>
+                            <a 
+                                href='https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                <div className='w-12 h-12 flex items-center justify-center rounded-full bg-black/50 hover:bg-dg transition transform hover:scale-110'>
+                                    <svg
+                                        viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="w-6 h-6 text-white"
+                                        fill="currentColor"
+                                    >
+                                        <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.7v2.2h.1c.7-1.3 2.4-2.7 5-2.7 5.4 0 6.4 3.5 6.4 8v9.5h-5v-8.4c0-2-.04-4.6-2.8-4.6-2.8 0-3.2 2.2-3.2 4.4v8.6h-5V8z"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
                     </div>
 
                     <div className="flex-1">
