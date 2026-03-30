@@ -1,6 +1,7 @@
 import forest from '../assets/forest-hero.jpg'
 import woodpattern from '../assets/woodpattern.jpg'
 // import feather from '../assets/blackbird-feather.svg'
+import canoe from '../assets/canoe.jpg'
 import featherwhite from '../assets/blackbird-feather-white.png'
 import { HeartHandshake, Feather } from 'lucide-react'
 import ContactSection from '../components/ContactSection'
@@ -57,16 +58,18 @@ const Services = () => {
                 </div>
 
                 <section id="services" className='mt-20 px-6 md:px-0'>
-                    <div className='flex flex-col space-y-2 max-w-[1400px] mx-auto'>
-                        <h2 className='text-5xl font-serif'>Our Services</h2>
-                        <p className='text-3xl font-serif'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
-                    </div>
+
 
                     <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px] mx-auto w-full'>
+
+                        <div className='flex flex-col space-y-2 flex-1 p-8 justify-center'>
+                            <h2 className='text-6xl font-serif'>Our Services</h2>
+                            <p className='text-2xl font-serif'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
+                        </div>
+
                         <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
                             hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                             <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
-                                {/* <HeartHandshake className='w-8 h-8 text-dg'/> */}
                                 <p className='text-3xl font-serif'>Indigenous Awareness & Truth Education</p>  
                             </div>
                             <p className='text-black/90'>Educational sessions designed to build understanding and empathy.</p>
@@ -98,10 +101,12 @@ const Services = () => {
                             <p className='text-black/80'>These sessions create safe spaces for questions, learning, and meaningful dialogue.</p>
                         </div>
                         
+                    </div>
+
+                    <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px] mx-auto w-full'>
                         <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
                             hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                             <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
-                                {/* <HeartHandshake className='w-8 h-8 text-dg'/> */}
                                 <p className='text-3xl font-serif'>Education & Youth Engagement</p>  
                             </div>
                             <p className='text-black/90'>Working with educators and students to build understanding early.</p>
@@ -128,13 +133,9 @@ const Services = () => {
                             </div>
                             <p className='text-black/80'>Helping young people understand our shared history builds a stronger future for everyone.</p>
                         </div>
-                    </div>
-
-                    <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px] mx-auto w-full'>
                         <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
                             hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                             <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
-                                {/* <HeartHandshake className='w-8 h-8 text-dg'/> */}
                                 <p className='text-3xl font-serif'>Reconciliation Strategy & Organizational Advisory</p>  
                             </div>
                             <p className='text-black/90'>Supporting organizations committed to meaningful change.</p>
@@ -162,10 +163,12 @@ const Services = () => {
                             <p className='text-black/80'>This work moves organizations beyond intention toward measurable action.</p>
                         </div>
                         
+                    </div>
+
+                    <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px] mx-auto w-full'>
                         <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
                             hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                             <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
-                                {/* <HeartHandshake className='w-8 h-8 text-dg'/> */}
                                 <p className='text-3xl font-serif'>Community Relationship Building</p>  
                             </div>
                             <p className='text-black/90'>Helping organizations build respectful and lasting relationships with Indigenous communities.</p>
@@ -191,6 +194,14 @@ const Services = () => {
                                 </ul>
                             </div>
                             <p className='text-black/80'>Reconciliation grows through relationship, not transactions.</p>
+                        </div>
+
+                        <div className='flex flex-col flex-1 p-8'>
+                            <img src={canoe} 
+                                alt="Point of View of a Canoe looking out on the water" 
+                                className="h-100 w-auto rounded-lg object-cover z-20 
+                                    transition-all duration-300 hover:shadow-2xl hover:-translate-y-1"
+                            />
                         </div>
                     </div>
 
