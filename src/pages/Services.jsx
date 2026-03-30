@@ -196,33 +196,23 @@ const Services = () => {
 
                 </section>
 
-                <section id='values' className='mx-auto m-20 px-6 md:px-0'>
+                <div className='relative bg-dg text-white py-20 overflow-hidden mt-20'>
+                    <div 
+                        className="absolute inset-0 opacity-2 bg-repeat z-0"
+                        alt='Wood pattern'
+                        style={{ backgroundImage: `url(${woodpattern})` }}    
+                    ></div>
+                </div>
 
-                    {/* <div className='relative bg-dg text-white py-10 overflow-hidden'>
-                        <div 
-                            className="absolute inset-0 opacity-2 bg-repeat z-0"
-                            alt='Wood pattern'
-                            style={{ backgroundImage: `url(${woodpattern})` }}    
-                        ></div>
-                        <div className='flex flex-col md:flex-row mx-auto items-center space-x-20 justify-center'>
-                            <h3 className='text-6xl drop-shadow-5xl font-serif'>Our Values</h3>
-                            <div className='max-w-[600px]'>
-                                <h3 className='text-3xl font-serif pt-2'>Guided by the Seven Grandfather Teachings</h3>
-                                <p className='text-xl pt-2 text-white/90'>The work of Blackbird Bimaadiziwin Consulting is guided by teachings that have guided Anishinaabe people for generations.</p>
-                            </div>
-                        </div>
-                    </div> */}
+                <section id='values' className='mx-auto my-20 px-6 md:px-0'>
                     <div className='flex flex-col md:flex-row max-w-[1400px] mx-auto justify-center md:space-x-12 items-center'>
                         <div className='max-w-[500px] items-center'>
-                            {/* <div className='border-l-2 border-dg/510 pl-6'> */}
                             <h2 className='text-6xl font-serif'>Our Values</h2>
                             <h3 className='text-4xl font-serif pt-2 text-black/90 mt-4'>Guided by the Seven Grandfather Teachings</h3>
                             <p className='mt-6'>The work of Blackbird Bimaadiziwin Consulting is guided by teachings that have guided Anishinaabe people for generations.</p>
                             <p className='mt-6'>These teachings guide how we walk alongside organizations and communities.</p>
-                            {/* </div> */}
                         </div>
 
-                        {/* <div className='flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 mt-8 justify-center items-center'> */}
                         <div className=''>
                             <div className='p-4 mt-4 max-w-[300px] border-l-1 border-dg/70 
                                 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:bg-crm'>
@@ -246,7 +236,6 @@ const Services = () => {
                             </div>
                         </div>
 
-                        {/* <div className='flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 mt-2 md:mt-8 justify-center items-center'> */}
                         <div className=''>
                             <div className='p-4 mt-8 max-w-[300px] border-l-1 border-dg/70
                                 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:bg-crm'>
