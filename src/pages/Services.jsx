@@ -63,7 +63,7 @@ const Services = () => {
                     <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px] mx-auto w-full'>
 
                         <div className='flex flex-col space-y-2 flex-1 p-8 justify-center'>
-                            <h2 className='text-6xl font-serif'>Our Services</h2>
+                            <h2 className='text-6xl font-serif border-b-2 border-dg pb-4'>Our Services</h2>
                             <p className='text-2xl font-serif'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
                         </div>
 
@@ -199,7 +199,7 @@ const Services = () => {
                         <div className='flex flex-col flex-1 p-8'>
                             <img src={canoe} 
                                 alt="Point of View of a Canoe looking out on the water" 
-                                className="h-100 w-auto rounded-lg object-cover z-20 
+                                className="h-90 w-auto rounded-lg object-cover z-20 
                                     transition-all duration-300 hover:shadow-2xl hover:-translate-y-1"
                             />
                         </div>
@@ -218,8 +218,8 @@ const Services = () => {
                 <section id='values' className='mx-auto my-20 px-6 md:px-0'>
                     <div className='flex flex-col md:flex-row max-w-[1400px] mx-auto justify-center md:space-x-12 items-center'>
                         <div className='max-w-[500px] items-center'>
-                            <h2 className='text-6xl font-serif'>Our Values</h2>
-                            <h3 className='text-4xl font-serif pt-2 text-black/90 mt-4'>Guided by the Seven Grandfather Teachings</h3>
+                            <h2 className='text-6xl font-serif border-b-2 border-dg pb-4'>Our Values</h2>
+                            <h3 className='text-3xl font-serif pt-2 text-black/90 mt-4'>Guided by the Seven Grandfather Teachings</h3>
                             <p className='mt-6'>The work of Blackbird Bimaadiziwin Consulting is guided by teachings that have guided Anishinaabe people for generations.</p>
                             <p className='mt-6'>These teachings guide how we walk alongside organizations and communities.</p>
                         </div>
