@@ -120,8 +120,8 @@ const Home = () => {
                                 <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
                                     <h2 className='text-4xl font-serif'>About the Founder</h2>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                        Elijah is a proud Ojibwe from Walpole Island First Nation and a seasoned Culture & Organizational Change leader.
+                                         He brings over 25 years of experience guiding teams, organizations, and communities through meaningful transformation.
                                     </p>
                                     <NavLink
                                         to='/about'
