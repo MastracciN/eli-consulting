@@ -22,7 +22,7 @@ const Services = () => {
                         {/* <h2 className="text-3xl md:text-5xl font-serif drop-shadow-lg py-8 md:p-0 font-bold max-w-5xl">
                             Services
                         </h2> */}
-                        <h3 className="text-4xl md:text-6xl font-serif drop-shadow-lg py-8 md:p-0 font-bold max-w-5xl">
+                        <h3 className="text-4xl md:text-7xl font-serif drop-shadow-lg py-8 md:p-0 font-bold max-w-5xl">
                             What we do
                         </h3>
                     </div>
@@ -36,8 +36,8 @@ const Services = () => {
                         alt='Wood pattern'
                         style={{ backgroundImage: `url(${woodpattern})` }}    
                     ></div>
-                    <div className='max-w-[1400px] mx-auto flex flex-col md:flex-row space-x-6 px-6 md:px-6 lg:px-6 xl:px-0 justify-center items-center'>
-                        <h3 className='text-7xl drop-shadow-5xl font-serif max-w-[500px]'>Walking Together in Two Worlds</h3>
+                    <div className='max-w-[1400px] mx-auto flex flex-col md:flex-row space-x-0 md:space-x-6 px-4 justify-center items-center'>
+                        <h3 className='text-4xl md:text-7xl drop-shadow-5xl font-serif max-w-[500px] mb-6 md:mb-0'>Walking Together in Two Worlds</h3>
                         <div className='flex flex-col space-y-2 max-w-[500px]'>
                                 <p>Blackbird Bimaadiziwin Consulting is rooted in relationship.</p>
                                 <p>
@@ -57,8 +57,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <section id="services" className='mt-20 px-6 md:px-0'>
-
+                <section id="services" className='mt-10 md:mt-20 px-6 md:px-0'>
 
                     <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px] mx-auto w-full'>
 
@@ -207,7 +206,7 @@ const Services = () => {
 
                 </section>
 
-                <div className='relative bg-dg text-white py-20 overflow-hidden mt-20'>
+                <div className='relative bg-dg text-white py-10 md:py-20 overflow-hidden mt-20'>
                     <div 
                         className="absolute inset-0 opacity-2 bg-repeat z-0"
                         alt='Wood pattern'
