@@ -71,7 +71,7 @@ const Home = () => {
                         </NavLink>
                     </section> */}
 
-                    <section id="services" className='flex flex-col md:flex-row items-center py-20 space-y-2 max-w-[1200px] mx-auto'>
+                    <section id="services" className='flex flex-col md:flex-row space-x-0 md:space-x-2 items-center py-20 space-y-2 max-w-[1200px] mx-auto'>
                         <div className='flex flex-col flex-1'>
                             <h2 className='text-6xl font-serif'>Our Services</h2>
                             <p className='text-xl font-serif mt-4'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
