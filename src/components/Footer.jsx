@@ -15,7 +15,7 @@ export default function Footer() {
                     />
                 </div>
 
-                <div className="flex flex-1 flex-col space-y-1">
+                <div className="flex flex-1 flex-col space-y-4">
                     <h2 className="text-2xl font-serif mb-6">Info</h2>
                     <NavLink 
                         to='/home'
@@ -55,7 +55,7 @@ export default function Footer() {
                     </NavLink>
                 </div>
 
-                <div className="flex flex-1 flex-col items-start space-y-1">
+                <div className="flex flex-1 flex-col items-start space-y-4">
                     <h2 className="text-2xl font-serif font-medium mb-6">Contact</h2>
                     <NavLink 
                         to='/contact'
