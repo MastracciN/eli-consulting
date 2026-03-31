@@ -78,19 +78,19 @@ const Contact = () => {
                     </div>
 
                     <div className="flex-1">
-                        <h2 className="text-3xl font-serif border-b-2 border-dg/50 pb-4 mb-8">Send us a message</h2>
+                        <h2 className="text-5xl font-serif mb-8">Send us a message</h2>
                         <form
                             onSubmit={handleSubmit}
                             className="space-y-6 max-w-[600px]"
                         >
                             <div>
                                 <label className="block mb-1 font-medium">Name</label>
-                                <input type='text' name='name'
+                                <input type='text' name='name' placeholder='John Smith'
                                     className="w-full border-b-2 border-dg/50 px-4 py-3 focus:outline-none focus:ring-2 focus:rounded-lg focus:ring-black"
                                     required
                                 />
                                 <label className="block mb-1 mt-6 font-medium">Email</label>
-                                <input type='text' name='email'
+                                <input type='text' name='email' placeholder='jsmith@email.ca'
                                     className="w-full border-b-2 border-dg/50 px-4 py-3 focus:outline-none focus:ring-2 focus:rounded-lg focus:ring-black"
                                     required
                                 /> 
@@ -99,13 +99,15 @@ const Contact = () => {
                                     name='message'
                                     rows={4}
                                     className="w-full border-b-2 border-dg/50 px-4 py-3 focus:outline-none focus:ring-2 focus:rounded-lg focus:ring-black resize-y"
+                                    placeholder='I would like to know more about..'
                                     required
                                 />  
                             </div>
 
                             <button type='submit'
-                                className='px-6 py-3 bg-dg/90 text-white font-semibold rounded-lg hover:bg-dg transition'
-                            >Submit
+                                className='px-6 py-3 bg-dg/90 text-white font-semibold rounded-lg hover:bg-dg transition w-full cursor-pointer'
+                            >
+                                Submit
                             </button>
                         </form>
                     </div>
