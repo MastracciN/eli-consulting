@@ -77,7 +77,7 @@ const Home = () => {
                             <p className='text-xl font-serif mt-4'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
                             <NavLink
                                 to='/services'
-                                className="relative inline-block font-bold text-dg mt-10
+                                className="relative inline-flex w-fit font-bold text-dg mt-10
                                 after:absolute after:left-0 after:bottom-[1px]
                                 after:h-[1px] after:w-full
                                 after:origin-left
@@ -91,6 +91,7 @@ const Home = () => {
                         </div>
                         <div>
                             <div className='flex flex-col flex-2 md:space-x-8 space-y-8 md:space-y-4'>
+                                {/* TODO: add lucide icon in a circle to left of border padding? */}
                                 <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
                                 hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                                     <p className='text-2xl font-serif'>Indigenous Awareness & Truth Education</p>
