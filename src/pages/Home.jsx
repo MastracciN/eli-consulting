@@ -71,7 +71,7 @@ const Home = () => {
                         </NavLink>
                     </section> */}
 
-                    <section id="services" className='flex flex-col md:flex-row space-x-0 md:space-x-2 items-center py-20 space-y-2 max-w-[1200px] mx-auto'>
+                    <section id="services" className='flex flex-col md:flex-row space-x-0 md:space-x-2 mt-10 md:mt-20 items-center space-y-2 max-w-[1200px] mx-auto'>
                         <div className='flex flex-col flex-1'>
                             <h2 className='text-6xl font-serif'>Our Services</h2>
                             <p className='text-xl font-serif mt-4'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
@@ -120,7 +120,7 @@ const Home = () => {
                         </div>
                     </section>
 
-                    <section id='values' className='mb-30'>
+                    <section id='values' className='mt-20 md:mt-30'>
                         <div className='max-w-[1400px] mx-auto'>
                             <div className='flex flex-col md:flex-row items-center justify-center md:space-x-8 space-y-10 md:space-y-0'>
                                 <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
@@ -163,11 +163,11 @@ const Home = () => {
                         </div>
                     </section>
                     
-                    <section id='values' className='mb-30'>
+                    <section id='values' className='my-20 md:my-30'>
                         <div className='max-w-[1400px] mx-auto'>
                             <div className='flex flex-col-reverse md:flex-row items-center justify-center md:space-x-8 space-y-10 md:space-y-0'>
                                 <img src={profile} 
-                                    alt="Point of View of a Canoe looking out on the water" 
+                                    alt="Portrait photo of Elijah" 
                                     className="h-80 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
                                 />
                                 <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
