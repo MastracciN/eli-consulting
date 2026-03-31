@@ -24,7 +24,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <main className='px-6 md:px-0'>
+            <main className='px-6 md:px-6'>
                 <div className="">
 
                     {/* <section id="services" className='flex flex-col items-center py-20 space-y-2'>
@@ -78,6 +78,7 @@ const Home = () => {
                             <NavLink
                                 to='/services'
                                 className="relative inline-flex w-fit font-bold text-dg mt-10
+                                mb-8 md:mb-0
                                 after:absolute after:left-0 after:bottom-[1px]
                                 after:h-[1px] after:w-full
                                 after:origin-left
@@ -164,7 +165,7 @@ const Home = () => {
                     
                     <section id='values' className='mb-30'>
                         <div className='max-w-[1400px] mx-auto'>
-                            <div className='flex flex-col md:flex-row items-center justify-center md:space-x-8 space-y-10 md:space-y-0'>
+                            <div className='flex flex-col-reverse md:flex-row items-center justify-center md:space-x-8 space-y-10 md:space-y-0'>
                                 <img src={profile} 
                                     alt="Point of View of a Canoe looking out on the water" 
                                     className="h-80 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
@@ -178,6 +179,7 @@ const Home = () => {
                                     <NavLink
                                         to='/about'
                                         className="relative inline-block font-bold text-dg mt-5
+                                        mb-12 md:mb-0
                                         after:absolute after:left-0 after:bottom-[1px]
                                         after:h-[1px] after:w-full
                                         after:origin-left
