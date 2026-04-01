@@ -19,7 +19,7 @@ export default function Footer() {
                     <div className="flex flex-col space-y-4">
                         <h2 className="text-2xl font-serif mb-6">Info</h2>
                         <NavLink 
-                            to='/home'
+                            to='/'
                             className="relative inline-block w-fit
                                 after:absolute after:left-0 after:bottom-[1px]
                                 after:h-[1px] after:w-full
@@ -60,7 +60,7 @@ export default function Footer() {
                         <h2 className="text-2xl font-serif font-medium mb-6">Contact</h2>
                         <NavLink 
                             to='/contact'
-                            className="relative inline-block
+                            className="relative inline-block w-fit
                                 after:absolute after:left-0 after:bottom-[1px]
                                 after:h-[1px] after:w-full
                                 after:origin-left
@@ -74,7 +74,7 @@ export default function Footer() {
                             href="https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="relative inline-block
+                            className="relative inline-block w-fit
                                 after:absolute after:left-0 after:bottom-[1px]
                                 after:h-[1px] after:w-full
                                 after:origin-left
