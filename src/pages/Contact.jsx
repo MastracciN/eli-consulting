@@ -37,11 +37,11 @@ const Contact = () => {
 
 
             <section id='contact' className="">
-                <div className='flex flex-col md:flex-row space-x-0 md:space-x-12 max-w-[1200px] mx-auto px-6 py-12'>
+                <div className='flex flex-col lg:flex-row space-x-0 md:space-x-12 max-w-[1200px] mx-auto px-6 py-12'>
 
                     <div className="flex flex-1 flex-col justify-center">
-                        <div className='pl-8 py-4 border-l-2 border-dg/50'>
-                            <h2 className='text-5xl font-serif'>Get in touch</h2>
+                        <div className='md:pl-8 py-4 md:border-l-2 md:border-dg/50'>
+                            <h2 className='text-4xl md:text-5xl font-serif'>Get in touch</h2>
                             <p className='mt-4'>If you would like to work with us or learn more, don't hesitate to send a message. We would love to hear from you.</p>
                             {/* <a 
                                 href="https://www.linkedin.com/in/elijah-blackbird-he-him-390374206/"
@@ -77,8 +77,8 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="flex-1">
-                        <h2 className="text-5xl font-serif mb-8">Send us a message</h2>
+                    <div className="flex-1 md:pl-8 lg:pl-0">
+                        <h2 className="text-4xl md:text-5xl font-serif mb-8 mt-10 lg:mt-0">Send us a message</h2>
                         <form
                             onSubmit={handleSubmit}
                             className="space-y-6 max-w-[600px]"

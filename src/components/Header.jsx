@@ -28,7 +28,7 @@ export default function Header() {
                     />
                 </NavLink>
                 
-                <div className="hidden md:flex space-x-9">
+                <div className="hidden md:flex space-x-8">
                     {routes.map(({ path, name, end }) => (
                         <NavLink 
                             key={path} 
