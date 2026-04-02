@@ -71,7 +71,7 @@ const Home = () => {
                         </NavLink>
                     </section> */}
 
-                    <section id="services" className='flex flex-col md:flex-row space-x-0 md:space-x-2 mt-10 md:mt-20 items-center space-y-2 max-w-[1200px] mx-auto'>
+                    <section id="services" className='flex flex-col lg:flex-row space-x-0 md:space-x-2 mt-10 lg:mt-20 items-center space-y-2 max-w-[1200px] mx-auto'>
                         <div className='flex flex-col flex-1'>
                             <h2 className='text-6xl font-serif'>Our Services</h2>
                             <p className='text-xl font-serif mt-4'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
@@ -122,9 +122,9 @@ const Home = () => {
 
                     <section id='values' className='mt-20 md:mt-30'>
                         <div className='max-w-[1400px] mx-auto'>
-                            <div className='flex flex-col md:flex-row items-center justify-center md:space-x-8 space-y-10 md:space-y-0'>
+                            <div className='flex flex-col lg:flex-row items-center justify-center md:space-x-12 space-y-15 lg:space-y-0'>
                                 <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
-                                    <h2 className='text-4xl font-serif'>Bimaadiziwin - Living the Good Life</h2>
+                                    <h2 className='text-4xl md:text-5xl font-serif'>Bimaadiziwin - Living the Good Life</h2>
                                     <p>
                                         <em>Bimaadiziwin</em> teaches that a good life is built through balance, responsibility, and community.
                                     </p>
@@ -165,13 +165,13 @@ const Home = () => {
                     
                     <section id='about' className='my-20 md:my-30'>
                         <div className='max-w-[1400px] mx-auto'>
-                            <div className='flex flex-col-reverse md:flex-row items-center justify-center md:space-x-8 space-y-10 md:space-y-0'>
+                            <div className='flex flex-col-reverse md:flex-row items-center justify-center md:space-x-12 space-y-10 md:space-y-0'>
                                 <img src={profile} 
                                     alt="Portrait photo of Elijah" 
                                     className="h-80 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
                                 />
                                 <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
-                                    <h2 className='text-4xl font-serif'>About the Founder</h2>
+                                    <h2 className='text-4xl md:text-5xl font-serif'>About the Founder</h2>
                                     <p>
                                         Elijah is a proud Ojibwe from Walpole Island First Nation and a seasoned Culture & Organizational Change leader.
                                          He brings over 25 years of experience guiding teams, organizations, and communities through meaningful transformation.
