@@ -163,7 +163,7 @@ const Home = () => {
                         </div>
                     </section>
                     
-                    <section id='values' className='my-20 md:my-30'>
+                    <section id='about' className='my-20 md:my-30'>
                         <div className='max-w-[1400px] mx-auto'>
                             <div className='flex flex-col-reverse md:flex-row items-center justify-center md:space-x-8 space-y-10 md:space-y-0'>
                                 <img src={profile} 
