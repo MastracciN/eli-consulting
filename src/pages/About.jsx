@@ -41,7 +41,7 @@ const About = () => {
 
                 <section id='myfather' className='mt-10 md:mt-20'>
                     <div className='max-w-[1400px] mx-auto px-4'>
-                        <div className='flex flex-col md:flex-row items-center justify-center md:space-x-8 space-y-10 md:space-y-0'>
+                        <div className='flex flex-col lg:flex-row items-center justify-center md:space-x-8 space-y-10 lg:space-y-0'>
                             <div className='max-w-2xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
                                 <h3 className='text-4xl font-serif'>                                
                                     My father, <b>Julius</b>, was born and raised on Walpole Island. He was a Residential School survivor. He rarely spoke about his experience, 
@@ -89,11 +89,11 @@ const About = () => {
                 </div>
 
                 <section id='inthatmoment' className='my-20'>
-                    <div className='max-w-[1400px] mx-auto'>
-                        <div className='flex flex-col-reverse md:flex-row items-center justify-center md:space-x-8 space-y-10 md:space-y-0'>
+                    <div className='max-w-[1400px] mx-auto px-6'>
+                        <div className='flex flex-col-reverse lg:flex-row items-center justify-center md:space-x-8 space-y-10 lg:space-y-0'>
                             <img src={walking} 
                                 alt="Portrait photo of Elijah" 
-                                className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
+                                className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20 mt-10 lg:mt-0"
                             />
                             <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
                                 <h3 className='text-4xl font-serif'>
@@ -139,7 +139,7 @@ const About = () => {
                     </div>
                 </div> */}
 
-                <div className='flex flex-col font-serif items-center text-center text-4xl space-y-10 mt-30 mb-25 mx-auto italic'>
+                <div className='flex flex-col font-serif items-center text-center text-4xl space-y-10 mt-20 lg:mt-30 mb-25 mx-auto italic'>
                         <p>
                             Reconciliation begins with <b>conversation</b>.
                         </p>
