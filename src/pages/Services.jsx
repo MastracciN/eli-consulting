@@ -1,7 +1,7 @@
 import forest from '../assets/forest-hero.jpg'
 import woodpattern from '../assets/woodpattern.jpg'
 // import feather from '../assets/blackbird-feather.svg'
-import lakehero from '../assets/duckonwater.jpg'
+import tree from '../assets/tree.jpg'
 import rushingwater from '../assets/moss.jpg'
 import { HeartHandshake, Feather } from 'lucide-react'
 import ContactSection from '../components/ContactSection'
@@ -196,7 +196,7 @@ const Services = () => {
                         </div>
 
                         <div className='flex flex-col flex-1 p-8'>
-                            <img src={lakehero} 
+                            <img src={tree} 
                                 alt="A red canoe floating on a lake surrounded by mountains" 
                                 className="h-90 w-auto rounded-lg object-cover z-20 
                                     transition-all duration-300 hover:shadow-2xl hover:-translate-y-1"
