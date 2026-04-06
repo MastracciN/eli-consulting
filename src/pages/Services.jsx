@@ -32,7 +32,7 @@ const Services = () => {
             <main className='bg-main'>
                 <div className='relative bg-dg text-white py-20 overflow-hidden'>
                     <div 
-                        className="absolute inset-0 opacity-2 bg-repeat z-0"
+                        className="absolute inset-0 opacity-2 z-0"
                         alt='Wood pattern'
                         style={{ backgroundImage: `url(${woodpattern})` }}    
                     ></div>
@@ -208,7 +208,7 @@ const Services = () => {
 
                 <div className='relative bg-dg text-white py-10 md:py-20 overflow-hidden mt-20'>
                     <div 
-                        className="absolute inset-0 opacity-2 bg-repeat z-0"
+                        className="absolute inset-0 opacity-2 z-0"
                         alt='Wood pattern'
                         style={{ backgroundImage: `url(${woodpattern})` }}    
                     ></div>

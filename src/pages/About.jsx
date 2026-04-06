@@ -32,7 +32,7 @@ const About = () => {
 
                 <div className='relative bg-dg text-white py-20 overflow-hidden'>
                     <div 
-                        className="absolute inset-0 opacity-2 bg-repeat"
+                        className="absolute inset-0 opacity-2"
                         alt='Wood pattern'
                         style={{ backgroundImage: `url(${woodpattern})` }}    
                     ></div>
@@ -79,7 +79,7 @@ const About = () => {
 
                 <div className='relative bg-dg text-white py-20 mt-20 overflow-hidden px-6'>
                     <div 
-                        className="absolute inset-0 opacity-2 bg-repeat"
+                        className="absolute inset-0 opacity-2"
                         alt="Wood pattern"
                         style={{ 
                             backgroundImage: `url(${woodpattern})`,
