@@ -56,7 +56,7 @@ const Contact = () => {
 
                         {state.succeeded && (
                             <p className="text-green-600 mb-4">
-                                Thanks! Your message has been sent.
+                                Thanks! We look forward to speaking with you.
                             </p>
                         )}
                         
