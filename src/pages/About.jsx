@@ -92,7 +92,7 @@ const About = () => {
                     <div className='max-w-[1400px] mx-auto px-6'>
                         <div className='flex flex-col-reverse lg:flex-row items-center justify-center md:space-x-8 space-y-10 lg:space-y-0'>
                             <img src={walking} 
-                                alt="Portrait photo of Elijah" 
+                                alt="Two people walking down a path inbetween tall yellow trees" 
                                 className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20 mt-10 lg:mt-0"
                             />
                             <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
@@ -110,34 +110,6 @@ const About = () => {
                         </div>
                     </div>
                 </section>
-
-                {/* <div className='max-w-[1200px] mx-auto space-y-30 mt-30 px-6'>
-                    <div className='flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:border-r-2 border-dg/50'>
-                        <div className="w-1/2 relative flex justify-center items-center">
-                            <div className="absolute top-0 left-0 h-30 w-30 bg-dg rounded-lg translate-x-8 -translate-y-4 z-10"></div>
-                            <div className="absolute bottom-0 right-0 h-30 w-30 bg-dg rounded-lg -translate-x-8 translate-y-4 z-10"></div>
-                            <img src={walking} 
-                                alt="Elijah and his daughter hiking in the forest" 
-                                className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover border-4 border-crm z-20"
-                            />
-                            <img src={water} 
-                                alt="Looking out on a lake" 
-                                className="absolute bottom-0 left-0 h-60 w-60 rounded-xl shadow-lg shadow-black/40 object-cover -translate-x-6 translate-y-16 border-4 border-crm z-30"
-                            />
-                        </div>
-                        <div className="w-full md:w-1/2 flex-col justify-center items-center space-y-4 text-l">
-                            <h3 className='text-4xl font-serif'>
-                                In that moment I realized what I had been missing, and I promised him and myself that I would walk more fully in who I am.
-                            </h3>
-                            <p>
-                                Today I teach my children to be proud of their Ojibwe roots, just as my father taught me.
-                                As I continue reconnecting with traditional teachings, I share this knowledge so others may better understand Indigenous 
-                                perspectives and experiences. My hope is that no young Indigenous person grows up disconnected from their identity or feeling 
-                                they must be ashamed of who they are.
-                            </p>
-                        </div>
-                    </div>
-                </div> */}
 
                 <div className='flex flex-col font-serif items-center text-center text-4xl space-y-10 mt-20 lg:mt-30 mb-25 mx-auto italic'>
                         <p>

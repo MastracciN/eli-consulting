@@ -1,8 +1,8 @@
 import forest from '../assets/forest-hero.jpg'
 import woodpattern from '../assets/woodpattern.jpg'
 // import feather from '../assets/blackbird-feather.svg'
-import canoe from '../assets/canoe.jpg'
-import path from '../assets/path.jpg'
+import lakehero from '../assets/lake-hero.jpg'
+import rushingwater from '../assets/moss.jpg'
 import { HeartHandshake, Feather } from 'lucide-react'
 import ContactSection from '../components/ContactSection'
 
@@ -13,7 +13,7 @@ const Services = () => {
             <section 
                 id='hero' 
                 className='relative bg-cover bg-center px-6'
-                style={{ backgroundImage: `url(${forest})` }}    
+                style={{ backgroundImage: `url(${rushingwater})` }}    
             >
                 <div className='absolute inset-0 bg-black/75'></div>
 
@@ -196,8 +196,8 @@ const Services = () => {
                         </div>
 
                         <div className='flex flex-col flex-1 p-8'>
-                            <img src={canoe} 
-                                alt="Point of View of a Canoe looking out on the water" 
+                            <img src={lakehero} 
+                                alt="A red canoe floating on a lake surrounded by mountains" 
                                 className="h-90 w-auto rounded-lg object-cover z-20 
                                     transition-all duration-300 hover:shadow-2xl hover:-translate-y-1"
                             />
@@ -221,13 +221,6 @@ const Services = () => {
                             <h3 className='text-3xl font-serif pt-2 text-black/90 mt-4'>Guided by the Seven Grandfather Teachings</h3>
                             <p className='mt-6'>The work of Blackbird Bimaadiziwin Consulting is guided by teachings that have guided Anishinaabe people for generations.</p>
                             <p className='mt-6'>These teachings guide how we walk alongside organizations and communities.</p>
-                            {/* <div className='w-100 h-64 overflow-hidden rounded-lg mx-auto mt-10'>
-                                <img src={path} 
-                                    alt="Point of View of a Canoe looking out on the water" 
-                                    className="w-full h-full object-cover
-                                        transition-all duration-300 hover:shadow-2xl hover:scale-105"
-                                />
-                            </div> */}
                         </div>
 
                         <div className=''>

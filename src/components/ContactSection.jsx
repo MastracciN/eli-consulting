@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
-import lakeHero from '../assets/lake-hero.jpg'
+import alltrees from '../assets/alltrees.jpg'
 
 export default function ContactSection() { 
 
     return(
         <section id='contact' 
             className='relative bg-cover bg-center py-0 md:py-15 px-2 md:px-4'
-            style={{ backgroundImage: `url(${lakeHero})` }}
+            style={{ backgroundImage: `url(${alltrees})` }}
         >
             <div className='absolute inset-0 bg-black/60'></div>
 
