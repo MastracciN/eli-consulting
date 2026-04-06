@@ -28,9 +28,9 @@ export default function ContactSection() {
                     </div>
                     <NavLink
                         to='/contact'
-                        className='inline-block px-10 py-4 text-white font-medium rounded-lg bg-gray-950
+                        className='inline-block px-10 py-4 text-white font-medium rounded-lg bg-dg
                             shadow-md transition-all duration-300
-                            hover:bg-black hover:shadow-lg hover:-translate-y-0.5
+                            hover:brightness-115 hover:shadow-lg hover:-translate-y-0.5
                             focus:outline-none focus:ring-2 focus:ring-dg/50'
                     >
                         Contact   
