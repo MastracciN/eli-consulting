@@ -1,7 +1,7 @@
 import forest from '../assets/forest-hero.jpg'
 import woodpattern from '../assets/woodpattern.jpg'
 // import feather from '../assets/blackbird-feather.svg'
-import lakehero from '../assets/lake-hero.jpg'
+import lakehero from '../assets/duckonwater.jpg'
 import rushingwater from '../assets/moss.jpg'
 import { HeartHandshake, Feather } from 'lucide-react'
 import ContactSection from '../components/ContactSection'

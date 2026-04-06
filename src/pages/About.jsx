@@ -12,7 +12,7 @@ const About = () => {
         <div className='mx-auto'>
             <section 
                 id='hero' 
-                className='relative bg-cover bg-center md:bg-fixed h-[60vh]'
+                className='relative bg-cover bg-center h-[60vh]'
                 style={{ backgroundImage: `url(${lakeHero})` }}
             >
                 <div className='absolute inset-0 bg-black/60'></div>
