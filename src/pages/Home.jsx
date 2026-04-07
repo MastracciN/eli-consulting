@@ -43,7 +43,7 @@ const Home = () => {
                                 after:transition-transform after:duration-300
                                 hover:after:scale-x-100"
                             >
-                                Learn More
+                                See our Services
                             </NavLink>
                         </div>
                         <div>
@@ -108,7 +108,7 @@ const Home = () => {
                                         after:transition-transform after:duration-300
                                         hover:after:scale-x-100"
                                     >
-                                        Learn More
+                                        See our Values
                                     </NavLink>
                                 </div>
                                 <img src={canoe} 
@@ -144,7 +144,7 @@ const Home = () => {
                                         after:transition-transform after:duration-300
                                         hover:after:scale-x-100"
                                     >
-                                        Learn More
+                                        Learn more about Elijah
                                     </NavLink>
                                 </div>
 
