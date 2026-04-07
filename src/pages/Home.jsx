@@ -113,7 +113,7 @@ const Home = () => {
                                 </div>
                                 <img src={canoe} 
                                     alt="Point of View of a Canoe looking out on the water" 
-                                    className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
+                                    className="h-120 w-120 rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
                                 />
                             </div>
                         </div>
@@ -124,7 +124,7 @@ const Home = () => {
                             <div className='flex flex-col-reverse md:flex-row items-center justify-center md:space-x-12 space-y-10 md:space-y-0'>
                                 <img src={profile} 
                                     alt="Portrait photo of Elijah" 
-                                    className="h-80 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
+                                    className="h-90 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
                                 />
                                 <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
                                     <h2 className='text-4xl md:text-5xl font-serif'>About the Founder</h2>
