@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react"
 import routes from "../routesConfig";
-import logo from "../assets/logo-header.png";
+import logo from "../assets/logo-header.webp";
 
 export default function Header() {
     const { pathName } = useLocation();

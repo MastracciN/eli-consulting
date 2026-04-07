@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "../assets/blackbird-header-dark.png";
+import logo from "../assets/blackbird-header-dark.webp";
 
 export default function Footer() {
 

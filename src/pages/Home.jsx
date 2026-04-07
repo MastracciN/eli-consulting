@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import ContactSection from '../components/ContactSection'
-import forest from '../assets/forest-hero.jpg'
-import canoe from '../assets/canoe.jpg'
+import forest from '../assets/forest-hero.webp'
+import canoe from '../assets/canoe.webp'
 import profile from '../assets/profile.jpg'
 
 const Home = () => {
@@ -26,50 +26,6 @@ const Home = () => {
 
             <main className='px-6 md:px-6'>
                 <div className="">
-
-                    {/* <section id="services" className='flex flex-col items-center py-20 space-y-2'>
-                        <h2 className='text-3xl font-serif'>Our Services</h2>
-                        <p className='text-3xl font-serif'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
-                        <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px]'>
-                            <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
-                            hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
-                                <p className='text-2xl font-serif'>Indigenous Awareness & Truth Education</p>
-                                <p>Educational sessions designed to build understanding and empathy.</p>
-                            </div>
-
-                            <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
-                            hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
-                                <p className='text-2xl font-serif'>Education & Youth Engagement</p>
-                                <p>Working with educators and students to build understanding early.</p>
-                            </div>
-                            
-                            <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
-                            hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
-                                <p className='text-2xl font-serif'>Reconciliation Strategy & Organizational Advisory</p>
-                                <p>Supporting organizations committed to meaningful change.</p>
-                            </div>
-                            
-                            <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
-                            hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
-                                <p className='text-2xl font-serif'>Community Relationship Building</p>
-                                <p>Helping organizations build respectful and lasting relationships with Indigenous communities.</p>
-                            </div>
-                        </div>
-
-                        <NavLink
-                            to='/services'
-                            className="relative inline-block font-bold text-dg mt-10
-                            after:absolute after:left-0 after:bottom-[1px]
-                            after:h-[1px] after:w-full
-                            after:origin-left
-                            after:scale-x-0
-                            after:bg-current
-                            after:transition-transform after:duration-300
-                            hover:after:scale-x-100"
-                        >
-                            Learn More
-                        </NavLink>
-                    </section> */}
 
                     <section id="services" className='flex flex-col lg:flex-row space-x-0 md:space-x-2 mt-10 lg:mt-20 items-center space-y-2 max-w-[1200px] mx-auto'>
                         <div className='flex flex-col flex-1'>
