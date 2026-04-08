@@ -10,7 +10,7 @@ export default function Footer() {
                     <h2 className="sr-only">Blackbird Bimaadiziwin Consulting</h2>
                     <img
                         src={logo}
-                        alt="Blackbird Bimaadiziwin Consulting"
+                        alt="Logo for Blackbird Bimaadiziwin Consulting"
                         className="h-16 w-auto md:h-18"
                     />
                 </div>

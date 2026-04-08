@@ -23,7 +23,7 @@ export default function Header() {
                     <h1 className="sr-only">Blackbird Bimaadiziwin Consulting</h1>
                     <img
                         src={logo}
-                        alt="Blackbird Bimaadiziwin Consulting"
+                        alt="Logo for Blackbird Bimaadiziwin Consulting"
                         className="w-auto h-12 md:h-18"
                     />
                 </NavLink>
