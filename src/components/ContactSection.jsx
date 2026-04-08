@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import alltrees from '../assets/alltrees.jpg'
+import alltrees from '../assets/alltrees.webp'
 
 export default function ContactSection() { 
 

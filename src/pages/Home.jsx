@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 import ContactSection from '../components/ContactSection'
 import forest from '../assets/forest-hero.webp'
 import canoe from '../assets/canoe.webp'
-import profile from '../assets/profile.jpg'
+import profile from '../assets/profile.webp'
 
 const Home = () => {
 
