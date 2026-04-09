@@ -50,6 +50,8 @@ export default function Header() {
                 <button
                     onClick={() => setOpen(!open)}
                     className='md:hidden text-3xl cursor-pointer'
+                    aria-label={open ? "Close menu" : "Open menu"}
+                    aria-expanded={open}
                 >
                     <Menu size={28}/>
                 </button>
