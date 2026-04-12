@@ -8,11 +8,15 @@ const Home = () => {
 
     return (
         <div className='bg-main'>
-            <section 
-                id='hero' 
-                className='relative bg-cover bg-center px-6'
-                style={{ backgroundImage: `url(${forest})` }}    
-            >
+            <section id='hero' className='relative px-6'>
+                <img
+                    src={forest}
+                    alt='Forest background'
+                    className='absolute inset-0 w-full h-full object-cover'
+                    loading='eager'
+                    fetchPriority='high'
+                />
+
                 <div className='absolute inset-0 bg-black/75'></div>
 
                 <div className='relative min-h-[85vh] flex items-center'>
