@@ -1,4 +1,3 @@
-import forest from '../assets/forest-hero.jpg'
 import woodpattern from '../assets/woodpattern.jpg'
 // import feather from '../assets/blackbird-feather.svg'
 import tree from '../assets/tree.jpg'

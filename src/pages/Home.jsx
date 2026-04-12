@@ -1,8 +1,9 @@
 import { NavLink } from 'react-router-dom'
 import ContactSection from '../components/ContactSection'
-import forest from '../assets/forest-hero.webp'
 import canoe from '../assets/canoe.webp'
 import profile from '../assets/profile.webp'
+import hero800 from '../assets/forest-hero-800.webp'
+import hero2000 from '../assets/forest-hero-2000.webp'
 
 const Home = () => {
 
@@ -10,7 +11,12 @@ const Home = () => {
         <div className='bg-main'>
             <section id='hero' className='relative px-6'>
                 <img
-                    src={forest}
+                    src={hero800}
+                    srcSet={`
+                        ${hero800} 400w,
+                        ${hero2000} 1200w
+                    `}
+                    sizes='100vw'
                     alt='Forest background'
                     className='absolute inset-0 w-full h-full object-cover'
                     loading='eager'
