@@ -11,12 +11,12 @@ const Home = () => {
         <div className='bg-main'>
             <section id='hero' className='relative px-6'>
                 <img
-                    src={hero800}
+                    src={hero2000}
                     srcSet={`
-                        ${hero800} 400w,
-                        ${hero2000} 1200w
+                        ${hero800} 800w,
+                        ${hero2000} 2000w
                     `}
-                    sizes='100vw'
+                    sizes='(max-width: 800px) 100vw, 2000px'
                     alt='Forest background'
                     className='absolute inset-0 w-full h-full object-cover'
                     loading='eager'
