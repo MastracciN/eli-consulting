@@ -13,10 +13,15 @@ const Home = () => {
                 <img
                     src={hero2000}
                     srcSet={`
+                        ${hero400} 400w,
                         ${hero800} 800w,
                         ${hero2000} 2000w
                     `}
-                    sizes='(max-width: 800px) 100vw, 2000px'
+                    sizes='
+                        (max-width: 400px) 100vw,
+                        (max-width: 800px) 100vw, 
+                        2000px
+                    '
                     alt='Forest background'
                     className='absolute inset-0 w-full h-full object-cover'
                     loading='eager'
