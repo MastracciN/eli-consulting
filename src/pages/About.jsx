@@ -48,11 +48,11 @@ const About = () => {
 
                 <div className='relative bg-dg text-white py-20 overflow-hidden'>
                     <div 
-                        className="absolute inset-0 opacity-2"
+                        className="absolute inset-0 opacity-2 pointer-events-none"
                         alt='Wood pattern'
                         style={{ backgroundImage: `url(${woodpattern})` }}    
                     ></div>
-                    <h3 className='text-4xl text-center drop-shadow-5xl font-serif'>I am a proud Ojibwe from <b>Walpole Island First Nation</b>.</h3>
+                    <h3 className='px-2 relative text-4xl text-center drop-shadow-5xl font-serif'>I am a proud Ojibwe from <b>Walpole Island First Nation</b>.</h3>
                 </div>
 
                 <section id='myfather' className='mt-10 md:mt-20'>
@@ -95,7 +95,7 @@ const About = () => {
 
                 <div className='relative bg-dg text-white py-20 mt-20 overflow-hidden px-6'>
                     <div 
-                        className="absolute inset-0 opacity-2"
+                        className="absolute inset-0 opacity-2 pointer-events-none"
                         alt="Wood pattern"
                         style={{ 
                             backgroundImage: `url(${woodpattern})`,
