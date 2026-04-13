@@ -31,7 +31,7 @@ const Services = () => {
             <main className='bg-main'>
                 <div className='relative bg-dg text-white py-20 overflow-hidden'>
                     <div 
-                        className="absolute inset-0 opacity-2 z-0"
+                        className="absolute inset-0 opacity-2 z-0 pointer-events-none"
                         alt='Wood pattern'
                         style={{ backgroundImage: `url(${woodpattern})` }}    
                     ></div>
@@ -39,7 +39,7 @@ const Services = () => {
                         <h3 className='text-4xl md:text-7xl drop-shadow-5xl font-serif max-w-[500px] mb-6 md:mb-0'>Walking Together in Two Worlds</h3>
                         <div className='flex flex-col space-y-2 max-w-[500px]'>
                                 <p>Blackbird Bimaadiziwin Consulting is rooted in relationship.</p>
-                                <p>
+                                <p className='text-white/90'>
                                     Guided by the principle of Two-Eyed Seeing — learning to see 
                                     with the strengths of Indigenous knowledge and the strengths of 
                                     Western systems — we help organizations walk in both worlds with integrity.
@@ -49,9 +49,9 @@ const Services = () => {
                                     reminds us we travel the river of life in separate vessels. Each vessel carries 
                                     its own laws, governance, and ways of knowing. We do not steer each other’s canoe.
                                 </p>
-                                <p>Instead, we travel side by side with respect.</p>
+                                <p className='text-white/90'>Instead, we travel side by side with respect.</p>
                                 <p>Reconciliation is not about becoming the same.</p>
-                                <p>It is about strengthening one another while honouring difference.</p>
+                                <p className='text-white/90'>It is about strengthening one another while honouring difference.</p>
                         </div>
                     </div>
                 </div>
