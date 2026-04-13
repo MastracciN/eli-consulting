@@ -5,7 +5,8 @@ import profile from '../assets/profile.webp'
 import hero400 from '../assets/forest-hero-400.webp'
 import hero800 from '../assets/forest-hero-800.webp'
 import hero2000 from '../assets/forest-hero-2000.webp'
-import feather2 from '../assets/feather3.webp'
+import feather3 from '../assets/feather3.webp'
+import woodpattern from '../assets/woodpattern.jpg'
 
 const Home = () => {
 
@@ -41,7 +42,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <main className='px-6 md:px-6'>
+            <main className=''>
                 <div className="">
 
                     <section id="services" className='flex flex-col lg:flex-row space-x-0 md:space-x-2 mt-10 lg:mt-20 items-center space-y-2 max-w-[1200px] mx-auto'>
@@ -94,7 +95,16 @@ const Home = () => {
                     </section>
 
                     <section id='values' className='mt-20 md:mt-30'>
-                        <div className='max-w-[1400px] mx-auto'>
+                        
+                        {/* <div className='relative bg-dg overflow-hidden'>
+                            <div 
+                                className='absolute inset-0 opacity-2'
+                                style={{ backgroundImage: `url(${woodpattern})` }}    
+                            >
+                            </div>
+                        </div> */}
+
+                        <div className='max-w-[1400px] mx-auto bg-main'>
                             <div className='flex flex-col lg:flex-row items-center justify-center md:space-x-12 space-y-15 lg:space-y-0'>
                                 <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
                                     <h2 className='text-4xl md:text-5xl font-serif'>Bimaadiziwin - Living the Good Life</h2>
@@ -128,10 +138,12 @@ const Home = () => {
                                         See our Values
                                     </NavLink>
                                 </div>
+
                                 <img src={canoe} 
                                     alt="Point of View of a Canoe looking out on the water" 
-                                    className="h-120 w-120 rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
+                                    className="h-120 w-120 rounded-2xl shadow-xl shadow-black/30 object-cover z-10 relative"
                                 />
+
                             </div>
                         </div>
                     </section>
@@ -141,7 +153,7 @@ const Home = () => {
                             <div className='flex flex-col-reverse lg:flex-row items-center justify-center md:space-x-12 space-y-10 md:space-y-0'>
 
                                 <div className='relative mt-10 lg:mt-0'>
-                                    <img src={feather2}
+                                    <img src={feather3}
                                         alt="Decorative feather"
                                         className='h-90 w-auto absolute -left-16 top-30 z-0 opacity-80 scale-x-[-1] -rotate-30'
                                     />
@@ -150,17 +162,13 @@ const Home = () => {
                                         alt="Portrait photo of Elijah" 
                                         className="h-90 w-auto rounded-2xl shadow-xl shadow-black/30 relative object-cover z-10"
                                     />
-
                                 </div>
-                                {/* <img src={feather2}
-                                    alt="Decorative feather"
-                                    className='h-90 w-auto z-10'
-                                />
 
-                                <img src={profile} 
+                                {/* <img src={profile} 
                                     alt="Portrait photo of Elijah" 
                                     className="h-90 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
                                 /> */}
+
                                 <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
                                     <h2 className='text-4xl md:text-5xl font-serif'>About the Founder</h2>
                                     <p>

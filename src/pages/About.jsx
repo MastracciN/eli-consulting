@@ -1,5 +1,7 @@
 import ContactSection from '../components/ContactSection'
-import lakeHero from '../assets/lake-hero.jpg'
+import lakeHero400 from '../assets/lake-hero-400.webp'
+import lakeHero800 from '../assets/lake-hero-800.webp'
+import lakeHero1800 from '../assets/lake-hero-1800.webp'
 import woodpattern from '../assets/woodpattern.jpg'
 import profile from '../assets/profile.webp'
 import memorial from '../assets/memorial.jpg'
@@ -10,11 +12,25 @@ const About = () => {
 
     return (
         <div className='mx-auto'>
-            <section 
-                id='hero' 
-                className='relative bg-cover bg-center h-[60vh]'
-                style={{ backgroundImage: `url(${lakeHero})` }}
-            >
+            <section id='hero' className='relative h-[65vh]'>
+                <img
+                    src={lakeHero1800}
+                    srcSet={`
+                        ${lakeHero400} 400w,
+                        ${lakeHero800} 800w,
+                        ${lakeHero1800} 1800w
+                    `}
+                    sizes='
+                        (max-width: 400px) 100vw,
+                        (max-width: 800px) 100vw, 
+                        1800px
+                    '
+                    alt='Canoe on a lake surrounded by mountains'
+                    className='absolute inset-0 w-full h-full object-cover bg-cover bg-center'
+                    loading='eager'
+                    fetchPriority='high'
+                />
+
                 <div className='absolute inset-0 bg-black/60'></div>
 
                 <div className=' relative flex flex-col h-full items-center justify-center text-white'>
