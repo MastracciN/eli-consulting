@@ -5,6 +5,7 @@ import profile from '../assets/profile.webp'
 import hero400 from '../assets/forest-hero-400.webp'
 import hero800 from '../assets/forest-hero-800.webp'
 import hero2000 from '../assets/forest-hero-2000.webp'
+import feather2 from '../assets/feather3.webp'
 
 const Home = () => {
 
@@ -137,11 +138,29 @@ const Home = () => {
                     
                     <section id='about' className='my-20 md:my-30'>
                         <div className='max-w-[1400px] mx-auto'>
-                            <div className='flex flex-col-reverse md:flex-row items-center justify-center md:space-x-12 space-y-10 md:space-y-0'>
+                            <div className='flex flex-col-reverse lg:flex-row items-center justify-center md:space-x-12 space-y-10 md:space-y-0'>
+
+                                <div className='relative mt-10 lg:mt-0'>
+                                    <img src={feather2}
+                                        alt="Decorative feather"
+                                        className='h-90 w-auto absolute -left-16 top-30 z-0 opacity-80 scale-x-[-1] -rotate-30'
+                                    />
+
+                                    <img src={profile} 
+                                        alt="Portrait photo of Elijah" 
+                                        className="h-90 w-auto rounded-2xl shadow-xl shadow-black/30 relative object-cover z-10"
+                                    />
+
+                                </div>
+                                {/* <img src={feather2}
+                                    alt="Decorative feather"
+                                    className='h-90 w-auto z-10'
+                                />
+
                                 <img src={profile} 
                                     alt="Portrait photo of Elijah" 
                                     className="h-90 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
-                                />
+                                /> */}
                                 <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
                                     <h2 className='text-4xl md:text-5xl font-serif'>About the Founder</h2>
                                     <p>
