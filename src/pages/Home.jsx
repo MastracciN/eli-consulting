@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom'
 import ContactSection from '../components/ContactSection'
 import canoe from '../assets/canoe.webp'
 import profile from '../assets/profile.webp'
+import hero400 from '../assets/forest-hero-400.webp'
 import hero800 from '../assets/forest-hero-800.webp'
 import hero2000 from '../assets/forest-hero-2000.webp'
 
