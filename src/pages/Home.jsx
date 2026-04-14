@@ -5,6 +5,7 @@ import profile from '../assets/profile.webp'
 import hero400 from '../assets/forest-hero-400.webp'
 import hero800 from '../assets/forest-hero-800.webp'
 import hero2000 from '../assets/forest-hero-2000.webp'
+import feather1 from '../assets/feather1.webp'
 import feather3 from '../assets/feather3.webp'
 import woodpattern from '../assets/woodpattern.jpg'
 
@@ -139,10 +140,21 @@ const Home = () => {
                                     </NavLink>
                                 </div>
 
-                                <img src={canoe} 
+                                <div className='relative mt-10 lg:mt-0'>
+                                    <img src={feather1}
+                                        alt="Decorative feather"
+                                        className='h-90 w-auto absolute left-95 top-60 z-0 opacity-80  rotate-40'
+                                    />
+
+                                    <img src={canoe} 
+                                        alt="Point of View of a Canoe looking out on the water" 
+                                        className="h-120 w-120 rounded-2xl shadow-xl shadow-black/30 object-cover z-10 relative"
+                                    />
+                                </div>
+                                {/* <img src={canoe} 
                                     alt="Point of View of a Canoe looking out on the water" 
                                     className="h-120 w-120 rounded-2xl shadow-xl shadow-black/30 object-cover z-10 relative"
-                                />
+                                /> */}
 
                             </div>
                         </div>
