@@ -39,7 +39,7 @@ const About = () => {
                         className="w-50 md:w-56 lg:w-70 xl:w-72 aspect-square rounded-full object-cover mb-12 md:mb-6 lg:mb-10 shadow-xl shadow-black/20 border-5 border-white"
                     />
                     <h1 className=" text-2xl md:text-3xl text-white drop-shadow-lg font-serif mb-2">About the Founder</h1>
-                    <h3 className="text-4xl md:text-5xl font-serif">Elijah Blackbird</h3>
+                    <p className="text-4xl md:text-5xl font-serif">Elijah Blackbird</p>
                 </div>
             </section>
 
@@ -51,17 +51,17 @@ const About = () => {
                         alt='Wood pattern'
                         style={{ backgroundImage: `url(${woodpattern})` }}    
                     ></div>
-                    <h3 className='px-2 relative text-4xl text-center drop-shadow-5xl font-serif'>I am a proud Ojibwe from <b>Walpole Island First Nation</b>.</h3>
+                    <h2 className='px-2 relative text-4xl text-center drop-shadow-5xl font-serif'>I am a proud Ojibwe from <b>Walpole Island First Nation</b>.</h2>
                 </div>
 
                 <section id='myfather' className='mt-10 md:mt-20'>
                     <div className='max-w-[1400px] mx-auto px-4'>
                         <div className='flex flex-col lg:flex-row items-center justify-center md:space-x-8 space-y-10 lg:space-y-0'>
                             <div className='max-w-2xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
-                                <h3 className='text-4xl font-serif'>                                
+                                <h2 className='text-4xl font-serif'>                                
                                     My father, <b>Julius</b>, was born and raised on Walpole Island. He was a Residential School survivor. He rarely spoke about his experience, 
                                     but he carried it throughout his life.   
-                                </h3>
+                                </h2>
                                 <p>
                                     He was proud to be <b>Native</b>.
                                 </p>
@@ -100,7 +100,7 @@ const About = () => {
                             backgroundImage: `url(${woodpattern})`,
                             backgroundPosition: 'left' ,
                     }}></div>
-                    <h3 className='text-4xl text-center drop-shadow-4xl font-serif'>It was at his Ojibwe funeral that something shifted within me.</h3>
+                    <h2 className='text-4xl text-center drop-shadow-4xl font-serif'>It was at his Ojibwe funeral that something shifted within me.</h2>
                 </div>
 
                 <section id='inthatmoment' className='my-20'>
@@ -111,9 +111,9 @@ const About = () => {
                                 className="h-120 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20 mt-10 lg:mt-0"
                             />
                             <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
-                                <h3 className='text-4xl font-serif'>
+                                <h2 className='text-4xl font-serif'>
                                     In that moment I realized what I had been missing, and I promised him and myself that I would walk more fully in who I am.
-                                </h3>
+                                </h2>
                                 <p>
                                     Today I teach my children to be proud of their Ojibwe roots, just as my father taught me.
                                     As I continue reconnecting with traditional teachings, I share this knowledge so others may better understand Indigenous 
