@@ -2,6 +2,9 @@ import woodpattern from '../assets/woodpattern.jpg'
 // import feather from '../assets/blackbird-feather.svg'
 import tree from '../assets/tree.jpg'
 import rushingwater from '../assets/moss.jpg'
+import moss400 from '../assets/moss-400.webp'
+import moss800 from '../assets/moss-800.webp'
+import moss1600 from '../assets/moss-1600.webp'
 import { HeartHandshake, Feather } from 'lucide-react'
 import ContactSection from '../components/ContactSection'
 
@@ -9,15 +12,28 @@ const Services = () => {
 
     return (
         <div className="bg-main">
-            <section 
-                id='hero' 
-                className='relative bg-cover bg-center px-6'
-                style={{ backgroundImage: `url(${rushingwater})` }}    
-            >
+            <section id='hero' className='relative h-[40vh]'>
+                <img
+                    src={moss1600}
+                    srcSet={`
+                        ${moss400} 400w,
+                        ${moss800} 800w,
+                        ${moss1600} 1600w
+                    `}
+                    sizes='
+                        (max-width: 400px) 100vw,
+                        (max-width: 800px) 100vw, 
+                        1600px
+                    '
+                    alt='A forest with rocks and trees covered in moss'
+                    className='absolute inset-0 w-full h-full object-cover bg-cover bg-center'
+                    loading='eager'
+                    fetchPriority='high'
+                />
                 <div className='absolute inset-0 bg-black/75'></div>
 
-                <div className='relative min-h-[40vh] flex items-center'>
-                    <div className='max-w-[1400px] mx-auto w-full text-white text-left'>
+                <div className='relative flex items-center h-full px-6'>
+                    <div className='max-w-[1400px] mx-auto w-full text-white text-left items-center'>
                         {/* <h2 className="text-3xl md:text-5xl font-serif drop-shadow-lg py-8 md:p-0 font-bold max-w-5xl">
                             Services
                         </h2> */}
