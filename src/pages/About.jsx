@@ -2,11 +2,10 @@ import ContactSection from '../components/ContactSection'
 import lakeHero400 from '../assets/lake-hero-400.webp'
 import lakeHero800 from '../assets/lake-hero-800.webp'
 import lakeHero1800 from '../assets/lake-hero-1800.webp'
-import woodpattern from '../assets/woodpattern.jpg'
+import woodpattern from '../assets/woodpattern.webp'
 import profile from '../assets/profile.webp'
-import memorial from '../assets/memorial.jpg'
-import water from '../assets/water.jpg'
-import walking from '../assets/walking.jpg'
+import memorial from '../assets/memorial.webp'
+import walking from '../assets/walking.webp'
 
 const About = () => {
 
