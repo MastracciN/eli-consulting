@@ -1,5 +1,8 @@
 import { useForm, ValidationError } from '@formspree/react'
 import rockyriver from '../assets/rockyriver.jpg'
+import rockyriver400 from '../assets/rockyriver-400.webp'
+import rockyriver800 from '../assets/rockyriver-800.webp'
+import rockyriver1600 from '../assets/rockyriver-1600.webp'
 
 const Contact = () => {
 
@@ -8,11 +11,25 @@ const Contact = () => {
     return (
         <div className="bg-main">
 
-            <section 
-                id='hero' 
-                className='relative bg-cover bg-center px-6'
-                style={{ backgroundImage: `url(${rockyriver})` }}    
-            >
+            <section id='hero' className='relative px-6'>
+                <img
+                    src={rockyriver1600}
+                    srcSet={`
+                        ${rockyriver400} 400w,
+                        ${rockyriver800} 800w,
+                        ${rockyriver1600} 1600w
+                    `}
+                    sizes='
+                        (max-width: 400px) 100vw,
+                        (max-width: 800px) 100vw, 
+                        1600px
+                    '
+                    alt='Water rushing down a river'
+                    className='absolute inset-0 w-full h-full object-cover'
+                    loading='eager'
+                    fetchPriority='high'
+                />
+                
                 <div className='absolute inset-0 bg-black/75'></div>
 
                 <div className='max-w-[1200px] mx-auto relative min-h-[30vh] flex text-white text-center items-center'>
