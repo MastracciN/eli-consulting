@@ -43,12 +43,12 @@ const Home = () => {
                 </div>
             </section>
 
-            <main className=''>
+            <main className='px-4'>
                 <div className="">
 
                     <section id="services" className='flex flex-col lg:flex-row space-x-0 md:space-x-2 mt-10 lg:mt-20 items-center space-y-2 max-w-[1200px] mx-auto'>
                         <div className='flex flex-col flex-1'>
-                            <h2 className='text-6xl font-serif'>Our Services</h2>
+                            <h2 className='text-4xl md:text-6xl font-serif'>Our Services</h2>
                             <p className='text-xl font-serif mt-4'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
                             <NavLink
                                 to='/services'
@@ -106,7 +106,7 @@ const Home = () => {
                         </div> */}
 
                         <div className='max-w-[1400px] mx-auto bg-main'>
-                            <div className='flex flex-col lg:flex-row items-center justify-center md:space-x-12 space-y-15 lg:space-y-0'>
+                            <div className='flex flex-col lg:flex-row items-center justify-center md:space-x-12 lg:space-y-0'>
                                 <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
                                     <h2 className='text-4xl md:text-5xl font-serif'>Bimaadiziwin - Living the Good Life</h2>
                                     <p>
@@ -162,9 +162,9 @@ const Home = () => {
                     
                     <section id='about' className='my-20 md:my-30'>
                         <div className='max-w-[1400px] mx-auto'>
-                            <div className='flex flex-col-reverse lg:flex-row items-center justify-center md:space-x-12 space-y-10 md:space-y-0'>
+                            <div className='flex flex-col-reverse lg:flex-row items-center justify-center md:space-x-12'>
 
-                                <div className='relative mt-10 lg:mt-0'>
+                                <div className='relative mb-10 md:mb-0'>
                                     <img src={feather3}
                                         alt="Decorative feather"
                                         className='h-90 w-auto absolute -left-16 top-30 z-0 opacity-80 scale-x-[-1] -rotate-30'

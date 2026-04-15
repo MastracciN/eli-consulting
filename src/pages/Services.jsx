@@ -1,7 +1,6 @@
 import woodpattern from '../assets/woodpattern.jpg'
 // import feather from '../assets/blackbird-feather.svg'
-import tree from '../assets/tree.jpg'
-import rushingwater from '../assets/moss.jpg'
+import tree from '../assets/tree.webp'
 import moss400 from '../assets/moss-400.webp'
 import moss800 from '../assets/moss-800.webp'
 import moss1600 from '../assets/moss-1600.webp'
