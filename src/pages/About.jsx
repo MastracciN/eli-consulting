@@ -43,7 +43,7 @@ const About = () => {
                 </div>
             </section>
 
-            <main className='bg-main'>
+            <main className='bg-main mb-15 lg:mb-25'>
 
                 <div className='relative bg-dg text-white py-20 overflow-hidden'>
                     <div 
@@ -126,7 +126,7 @@ const About = () => {
                     </div>
                 </section>
 
-                <div className='flex flex-col font-serif items-center text-center text-2xl md:text-3xl lg:text-4xl space-y-10 mt-20 lg:mt-30 mb-25 mx-auto italic'>
+                <div className='flex flex-col font-serif items-center text-center text-2xl md:text-3xl lg:text-4xl space-y-10 mt-20 lg:mt-30 mx-auto italic'>
                         <p>
                             Reconciliation begins with <b>conversation</b>.
                         </p>
