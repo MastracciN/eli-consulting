@@ -43,7 +43,7 @@ const About = () => {
                 </div>
             </section>
 
-            <main className='bg-main mb-15 lg:mb-25'>
+            <main className='bg-main pb-15 lg:pb-25'>
 
                 <div className='relative bg-dg text-white py-20 overflow-hidden'>
                     <div 
