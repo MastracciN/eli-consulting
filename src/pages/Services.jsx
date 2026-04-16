@@ -11,7 +11,7 @@ const Services = () => {
 
     return (
         <div className="bg-main">
-            <section id='hero' className='relative h-[40vh]'>
+            <section id='hero' className='relative h-[35vh]'>
                 <img
                     src={moss1600}
                     srcSet={`
@@ -32,7 +32,7 @@ const Services = () => {
                 <div className='absolute inset-0 bg-black/75'></div>
 
                 <div className='relative flex items-center h-full px-6'>
-                    <div className='max-w-[1400px] mx-auto w-full text-white text-left items-center'>
+                    <div className='max-w-[1200px] mx-auto w-full text-white text-left items-center'>
                         {/* <h2 className="text-3xl md:text-5xl font-serif drop-shadow-lg py-8 md:p-0 font-bold max-w-5xl">
                             Services
                         </h2> */}
@@ -51,7 +51,7 @@ const Services = () => {
                         style={{ backgroundImage: `url(${woodpattern})` }}    
                     ></div>
                     <div className='max-w-[1400px] mx-auto flex flex-col md:flex-row space-x-0 md:space-x-6 px-4 justify-center items-center'>
-                        <h3 className='text-4xl md:text-7xl drop-shadow-5xl font-serif max-w-[500px] mb-6 md:mb-0'>Walking Together in Two Worlds</h3>
+                        <h3 className='text-4xl md:text-5xl lg:text-7xl drop-shadow-5xl font-serif max-w-[500px] mb-6 md:mb-0'>Walking Together in Two Worlds</h3>
                         <div className='flex flex-col space-y-2 max-w-[500px]'>
                                 <p>Blackbird Bimaadiziwin Consulting is rooted in relationship.</p>
                                 <p className='text-white/90'>
@@ -76,14 +76,14 @@ const Services = () => {
                     <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px] mx-auto w-full'>
 
                         <div className='flex flex-col space-y-2 flex-1 p-8 justify-center'>
-                            <h2 className='text-6xl font-serif border-b-2 border-dg pb-4'>Our Services</h2>
+                            <h2 className='text-4xl md:text-5xl lg:text-6xl font-serif border-b-2 border-dg pb-4'>Our Services</h2>
                             <p className='text-2xl font-serif'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
                         </div>
 
                         <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
                             hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                             <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
-                                <p className='text-3xl font-serif'>Indigenous Awareness & Truth Education</p>  
+                                <p className='text-2xl lg:text-3xl font-serif'>Indigenous Awareness & Truth Education</p>  
                             </div>
                             <p className='text-black/90'>Educational sessions designed to build understanding and empathy.</p>
                             <p className='text-black/80 font-medium'>Topics include:</p>
@@ -120,7 +120,7 @@ const Services = () => {
                         <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
                             hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                             <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
-                                <p className='text-3xl font-serif'>Education & Youth Engagement</p>  
+                                <p className='text-2xl lg:text-3xl font-serif'>Education & Youth Engagement</p>  
                             </div>
                             <p className='text-black/90'>Working with educators and students to build understanding early.</p>
                             <p className='text-black/80 font-medium'>Programs include:</p>
@@ -149,7 +149,7 @@ const Services = () => {
                         <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
                             hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                             <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
-                                <p className='text-3xl font-serif'>Reconciliation Strategy & Organizational Advisory</p>  
+                                <p className='text-2xl lg:text-3xl font-serif'>Reconciliation Strategy & Organizational Advisory</p>  
                             </div>
                             <p className='text-black/90'>Supporting organizations committed to meaningful change.</p>
                             <p className='text-black/80 font-medium'>Services include:</p>
@@ -182,7 +182,7 @@ const Services = () => {
                         <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
                             hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                             <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
-                                <p className='text-3xl font-serif'>Community Relationship Building</p>  
+                                <p className='text-2xl lg:text-3xl font-serif'>Community Relationship Building</p>  
                             </div>
                             <p className='text-black/90'>Helping organizations build respectful and lasting relationships with Indigenous communities.</p>
                             <p className='text-black/80 font-medium'>Services include:</p>
@@ -212,7 +212,7 @@ const Services = () => {
                         <div className='flex flex-col flex-1 p-8'>
                             <img src={tree} 
                                 alt="A red canoe floating on a lake surrounded by mountains" 
-                                className="h-90 w-auto rounded-lg object-cover z-20 
+                                className="h-full lg:h-90 w-full rounded-lg object-cover z-20 
                                     transition-all duration-300 hover:shadow-2xl hover:-translate-y-1"
                             />
                         </div>
@@ -228,13 +228,13 @@ const Services = () => {
                     ></div>
                 </div>
 
-                <section id='values' className='mx-auto my-20 px-6 md:px-0'>
+                <section id='values' className='mx-auto my-20 px-6'>
                     <div className='flex flex-col md:flex-row max-w-[1400px] mx-auto justify-center md:space-x-12 items-center'>
                         <div className='max-w-[500px] items-center'>
-                            <h2 className='text-6xl font-serif border-b-2 border-dg pb-4'>Our Values</h2>
+                            <h2 className='text-4xl lg:text-6xl font-serif border-b-2 border-dg pb-4'>Our Values</h2>
                             <h3 className='text-3xl font-serif pt-2 text-black/90 mt-4'>Guided by the Seven Grandfather Teachings</h3>
                             <p className='mt-6'>The work of Blackbird Bimaadiziwin Consulting is guided by teachings that have guided Anishinaabe people for generations.</p>
-                            <p className='mt-6'>These teachings guide how we walk alongside organizations and communities.</p>
+                            <p className='mt-6 mb-6 lg:mb-0'>These teachings guide how we walk alongside organizations and communities.</p>
                         </div>
 
                         <div className=''>

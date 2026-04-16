@@ -32,7 +32,7 @@ const Contact = () => {
                 
                 <div className='absolute inset-0 bg-black/75'></div>
 
-                <div className='max-w-[1200px] mx-auto relative min-h-[30vh] flex text-white text-center items-center'>
+                <div className='max-w-[1200px] mx-auto relative min-h-[35vh] flex text-white text-center items-center'>
                         <h3 className="text-4xl md:text-6xl font-serif drop-shadow-lg py-8 md:p-0 font-bold max-w-5xl">
                             Contact Us
                         </h3>
