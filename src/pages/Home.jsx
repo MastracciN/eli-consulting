@@ -43,7 +43,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <main className='px-4'>
+            <main className='px-4 md:px-6'>
                 <div className="">
 
                     <section id="services" className='flex flex-col lg:flex-row space-x-0 md:space-x-2 mt-10 lg:mt-20 items-center space-y-2 max-w-[1200px] mx-auto'>
@@ -53,7 +53,7 @@ const Home = () => {
                             <NavLink
                                 to='/services'
                                 className="relative inline-flex w-fit font-bold text-dg mt-10
-                                mb-8 md:mb-0
+                                mb-8 lg:mb-0
                                 after:absolute after:left-0 after:bottom-[1px]
                                 after:h-[1px] after:w-full
                                 after:origin-left
@@ -140,7 +140,7 @@ const Home = () => {
                                     </NavLink>
                                 </div>
 
-                                <div className='relative mt-10 lg:mt-0'>
+                                <div className='relative mt-10 lg:mt-0 overflow-hidden'>
                                     <img src={feather1}
                                         alt="Decorative feather"
                                         className='h-90 w-auto absolute left-95 top-60 z-0 opacity-80  rotate-40'
@@ -181,7 +181,7 @@ const Home = () => {
                                     className="h-90 w-auto rounded-2xl shadow-xl shadow-black/30 object-cover z-20"
                                 /> */}
 
-                                <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10'>
+                                <div className='max-w-xl space-y-4 md:border-l-2 border-dg/50 md:px-10 mb-12 lg:mb-0'>
                                     <h2 className='text-4xl md:text-5xl font-serif'>About the Founder</h2>
                                     <p>
                                         Elijah is a proud Ojibwe from Walpole Island First Nation and a seasoned Culture & Organizational Change leader.
@@ -190,7 +190,6 @@ const Home = () => {
                                     <NavLink
                                         to='/about'
                                         className="relative inline-block font-bold text-dg mt-5
-                                        mb-12 md:mb-0
                                         after:absolute after:left-0 after:bottom-[1px]
                                         after:h-[1px] after:w-full
                                         after:origin-left
