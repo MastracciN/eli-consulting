@@ -71,7 +71,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <section id="services" className='mt-10 md:mt-20 px-6 md:px-0'>
+                <section id="services" className='mt-10 md:mt-20 px-4 lg:px-0'>
 
                     <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px] mx-auto w-full'>
 
@@ -80,7 +80,7 @@ const Services = () => {
                             <p className='text-2xl font-serif'>All services are grounded in <b>relationship</b>, <b>Two-Eyed Seeing</b>, and <b>shared responsibility</b>.</p>
                         </div>
 
-                        <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
+                        <div className='flex flex-col flex-1 space-y-4 p-4 lg:p-8 transition-all duration-300 bg-crm/50
                             hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                             <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
                                 <p className='text-2xl lg:text-3xl font-serif'>Indigenous Awareness & Truth Education</p>  
@@ -117,7 +117,7 @@ const Services = () => {
                     </div>
 
                     <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px] mx-auto w-full'>
-                        <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
+                        <div className='flex flex-col flex-1 space-y-4 p-4 lg:p-8 transition-all duration-300 bg-crm/50
                             hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                             <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
                                 <p className='text-2xl lg:text-3xl font-serif'>Education & Youth Engagement</p>  
@@ -146,7 +146,7 @@ const Services = () => {
                             </div>
                             <p className='text-black/80'>Helping young people understand our shared history builds a stronger future for everyone.</p>
                         </div>
-                        <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
+                        <div className='flex flex-col flex-1 space-y-4 p-4 lg:p-8 transition-all duration-300 bg-crm/50
                             hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                             <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
                                 <p className='text-2xl lg:text-3xl font-serif'>Reconciliation Strategy & Organizational Advisory</p>  
@@ -179,7 +179,7 @@ const Services = () => {
                     </div>
 
                     <div className='flex flex-col md:flex-row mt-10 md:space-x-8 space-y-8 md:space-y-0 max-w-[1400px] mx-auto w-full'>
-                        <div className='flex flex-col flex-1 space-y-4 p-8 transition-all duration-300 bg-crm/50
+                        <div className='flex flex-col flex-1 space-y-4 p-4 lg:p-8 transition-all duration-300 bg-crm/50
                             hover:-translate-y-1 hover:shadow-2xl hover:bg-crm leading-relaxed border-l-2 border-dg/50'>
                             <div className='flex space-x-2 items-center border-b-2 border-dg/50 pb-4'>
                                 <p className='text-2xl lg:text-3xl font-serif'>Community Relationship Building</p>  
@@ -239,22 +239,22 @@ const Services = () => {
 
                         <div className=''>
                             <div className='p-4 mt-4 max-w-[300px] border-l-1 border-dg/70 
-                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:bg-crm'>
+                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl bg-crm/50 hover:bg-crm'>
                                 <h4 className='text-xl font-serif'>Wisdom (Nbwaakaawin)</h4>
                                 <p>Using knowledge and experience to guide decisions that benefit the community.</p>
                             </div>
                             <div className='p-4 mt-8 max-w-[300px] border-l-1 border-dg/70
-                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:bg-crm'>
+                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2x bg-crm/50 hover:bg-crm'>
                                 <h4 className='text-xl font-serif'>Love (Zaagi’idiwin)</h4>
                                 <p>Approaching this work with compassion and care for people and relationships.</p>
                             </div>
                             <div className='p-4 mt-8 max-w-[300px] border-l-1 border-dg/70
-                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:bg-crm'>
+                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl bg-crm/50 hover:bg-crm'>
                                 <h4 className='text-xl font-serif'>Respect (Mnaadendimowin)</h4>
                                 <p>Honouring the dignity, knowledge, and perspectives of all people.</p>
                             </div>
                             <div className='p-4 mt-8 max-w-[300px] border-l-1 border-dg/70
-                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:bg-crm'>
+                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl bg-crm/50 hover:bg-crm'>
                                 <h4 className='text-xl font-serif'>Bravery (Aakode’ewin)</h4>
                                 <p>Having the courage to speak truth and engage in difficult conversations.</p>
                             </div>
@@ -262,17 +262,17 @@ const Services = () => {
 
                         <div className=''>
                             <div className='p-4 mt-8 max-w-[300px] border-l-1 border-dg/70
-                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:bg-crm'>
+                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl bg-crm/50 hover:bg-crm'>
                                 <h4 className='text-xl font-serif'>Honesty (Gwekwaadziwin)</h4>
                                 <p>Walking with integrity and openness in all relationships.</p>
                             </div>
                             <div className='p-4 mt-8 max-w-[300px] border-l-1 border-dg/70
-                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:bg-crm'>
+                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl bg-crm/50 hover:bg-crm'>
                                 <h4 className='text-xl font-serif'>Humility (Dabaadendiziwin)</h4>
                                 <p>Recognizing that we are all part of something greater than ourselves.</p>
                             </div>
                             <div className='p-4 mt-8 max-w-[300px] border-l-1 border-dg/70
-                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:bg-crm'>
+                                transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl bg-crm/50 hover:bg-crm'>
                                 <h4 className='text-xl font-serif'>Truth (Debwewin)</h4>
                                 <p>Seeking understanding through listening, reflection, and shared learning.</p>
                             </div>
